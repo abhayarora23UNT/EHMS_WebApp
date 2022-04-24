@@ -1,0 +1,694 @@
+*{
+  margin: 0;
+}
+.homepage{
+  background-color:#ffff;
+  width: 100%;
+  height: auto;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: inherit;
+}
+.header{
+  width: 95%;
+  height: 50px;
+  margin: 0 auto;
+  background-color:#fdfdfd;
+  border-radius: 5px;
+  padding: 0.5px;
+}
+.top{
+  width: 90%;
+  height: auto;
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.title{
+  font-size: 2em;
+  text-align: left;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+}
+.title a:hover{
+  color: #00B3AD;
+}
+.contactus__content{
+  width: 100%;
+  height: auto;
+  padding-top: 0.5px;
+  margin-top: 25px;
+  background-color: inherit;
+  display: flex;
+}
+.hospital__address{
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+  margin-left:;
+  background-color: inherit;
+  text-align: justify;
+}
+.Address_details{
+font-size: 1.3em;
+margin-top: 20px;
+text-align: justify;
+background-color: inherit;
+}
+.directmessage{
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
+  margin-left:;
+  background-color: inherit;
+}
+.contactus__form{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: inherit;
+  margin-top: 10px;
+}
+.contactusform__inputs{
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+  color: #CEC2C5;
+  font-family: verdana;
+}
+.contactus__form input{
+  width: 70%;
+  height: 27px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 2px solid #B3B9B9;
+  border-radius: 2px;
+  padding-left: 30px;
+  outline: none;
+}
+input:focus{
+  background-color: #D6DCDC;
+}
+.usericon {
+  position: absolute;
+}
+.usericon i{
+  margin-top: 17px;
+  margin-left: 7px;
+  color: #00B3AD;
+}
+.passicon{
+  position: absolute;
+}
+.passicon i{
+  margin-top: 17px;
+  margin-left: 7px;
+  color: #00B3AD;
+  padding: 0.5px;
+}
+textarea{
+  outline: none;
+  border: 2px solid silver;
+  border-radius: 2px;
+}
+.submit__btn{
+  margin-top: 10px;
+}
+.submit__btn button{
+  width: auto;
+  height: 30px;
+  background-color: #00B3AD;
+  color: #ffffff;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.social__accounts{
+  width: 23%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  background-color: inherit;
+}
+.social__accounts h2{
+  border-bottom: 1px solid grey;
+  border-bottom-style: dotted;
+  margin-bottom: 5px;
+}
+.facebook{
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 7px ;
+  text-align: center;
+  background-color:#159EF3;
+  cursor: pointer;
+}
+.facebook i{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+.facebook a{
+  color: #ffffff;
+}
+
+.instagram{
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 7px ;
+  text-align: center;
+  background-color: #DB003C;
+  cursor: pointer;
+}
+.instagram i{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+
+.instagram a{
+  color: #ffffff;
+}
+.twitter{
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 7px ;
+  text-align: center;
+  background-color: #1C9DEB;
+  cursor: pointer;
+}
+.twitter i{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+.twitter a{
+  color: #ffffff;
+}
+.whatsapp{
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 7px ;
+  text-align: center;
+  background-color: #42E45F;
+  cursor: pointer;
+}
+.whatsapp i{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+.whatsapp a{
+  color: #ffffff;
+}
+@keyframes animations {
+  0%{background-image: url("../images/pic13.jpg");}
+  25%{background-image: url("../images/pic2.jpg");}
+  50%{background-image: url("../images/pic11.jpg");}
+  75%{background-image: url("../images/pic15.jpg");}
+  100%{background-image: url("../images/pic17.jpg");}
+}
+.center{
+  width: 95%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  object-fit: cover;
+  position: relative;
+}
+
+.homePic{
+  margin-left: -127px;
+}
+
+
+.center img{
+  width: 70%;
+  height: 20%;
+}
+.nav{
+  width: 95%;
+  height:auto;
+  background-color:lightblue;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 1px;
+
+}
+
+.nav__content{
+  width:90% ;
+  height:auto ;
+  background-color: inherit;
+  margin: 1%;
+  display: flex;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  margin: 5;
+}
+.nav a:hover{
+  color:#F0F30A ;
+}
+.admin_icon{
+  font-size: 2em;
+  color: white;
+}
+.doctor_icon{
+  font-size: 2em;
+  color: white;
+}
+.nurse_icon{
+  font-size:2em;
+  color: white;
+}
+.users_icon{
+  font-size: 2em;
+  color: white;
+}
+.invitation{
+  width: 95%;
+  height: auto;
+  margin:0 auto;
+  border: 1px solid silver;
+  margin-top: 5px;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: bold;
+}
+.invitation p{
+  margin-left: 50px;
+}
+.invitation__content{
+  font-size: 0.8em;
+  font-weight: normal;
+  font-family: monospace;
+}
+footer{
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  margin-top: 20px;
+  background-color: #0000;
+
+}
+.footer__content{
+  width: 80%;
+  height: auto;
+  background-color: inherit;
+  margin: 0 auto;
+}
+.footer__list{
+  width: 70%;
+  height: auto;
+  background-color: inherit;
+  margin: 0 auto;
+  display: flex;
+}
+.footer__list ul,li,a{
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+}
+.home{
+  width: auto;
+  height: auto;
+  color: #0000;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 3px;
+
+}
+.footer__divider{
+  border-right: 2px solid blue;
+  width: auto;
+  height: auto;
+  color: #0000;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 3px;
+}
+.contactus{
+  width: auto;
+  height: auto;
+  color: #33A6DC;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 3px;
+}
+.home:hover{
+  background-color: #0000;
+}
+.contactus:hover{
+  background-color: #33A6DC;
+}
+
+
+/*****Responsiveness******/
+
+
+/***** Media Quries *****/
+
+@media only screen and (max-width: 1440px) {
+  .wrapper{
+		width:90%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .admin_icon{
+    font-size: 1.1em;
+    color: white;
+  }
+  .doctor_icon{
+    font-size: 1.1em;
+    color: white;
+  }
+  .nurse_icon{
+    font-size: 1.1em;
+    color: white;
+  }
+  .users_icon{
+    font-size: 1.1em;
+    color: white;
+}
+.title{
+  font-size:1.4em ;
+}
+.invitation{
+  height: 190px;
+}
+.invitation p{
+  font-size: 1em;
+}
+.contactus__content{
+  display: block;
+  margin: 0;
+}
+textarea{
+  width: 80%;
+}
+.hospital__address{
+  margin: 0;
+  font-size: 0.7em;
+}
+.Address_details{
+  text-align: left;
+  width: 190px;
+}
+.directmessage{
+  width: 90%;
+  margin:0;
+}
+.social__accounts{
+  width: auto;
+  height:210px;
+}
+h3{
+  font-size: 1.3em;
+}
+h2{
+  font-size: 1em;
+}
+.contactus__form{
+  margin-top: 5px;
+}
+.admin__header{
+  position: fixed;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+	.wrapper{
+		width:90%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .hospital__address{
+
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+@media only screen and (max-width: 800px) {
+
+	.wrapper{
+		width:95%;
+    height: auto;
+	}
+  body{
+    width: 100%;
+  }
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .social__accounts{
+    width: 50%;
+  }
+
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
+@media only screen and (max-width: 600px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+}
+.invitation{
+  height: 100px;
+}
+.invitation p{
+  font-size: 1em;
+}
+footer{
+  width: 100%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  margin-top: 20px;
+  background-color: #BBC8C8;
+
+}
+}
+
+/*admin sidebar*/
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .invitation{
+    height: 300px;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+
+}
+/*  GO FULL WIDTH AT LESS THAN 412 PIXELS */
+@media only screen and (max-width: 412px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .invitation{
+    height: auto;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 360 PIXELS */
+@media only screen and (max-width: 384px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .invitation{
+    height: auto;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 375 PIXELS */
+@media only screen and (max-width: 375px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .invitation{
+    height: auto;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+}
+/*  GO FULL WIDTH AT LESS THAN 360 PIXELS */
+@media only screen and (max-width: 360px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .invitation{
+    height: auto;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+}
+
+/*  GO FULL WIDTH AT LESS THAN 320 PIXELS */
+@media only screen and (max-width: 320px) {
+
+	.wrapper{
+		width:95%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .title{
+    font-size:1.4em ;
+  }
+}
+
+/*  GO FULL WIDTH AT LESS THAN 240 PIXELS */
+@media only screen and (max-width: 240px) {
+
+	.wrapper{
+		width:100%;
+	}
+  .center{
+    width: 95%;
+    height: auto;
+  }
+  .center img{
+    width:100%;
+    height: auto;
+  }
+  .title{
+    font-size:1.4em ;
+  }
+  .invitation{
+    height: 275px;
+    font-size: 1.2em;
+  }
+  .invitation p{
+    font-size: 1em;
+  }
+}

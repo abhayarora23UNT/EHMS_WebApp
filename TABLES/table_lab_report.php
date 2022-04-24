@@ -1,0 +1,22 @@
+<?php
+include_once '../DATABASE/connection.php';
+
+$sql = "CREATE TABLE IF NOT EXISTS table_lab_report (
+        Id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        Name  VARCHAR(255) NOT NULL,
+        Email VARCHAR(255) NOT NULL,
+        Phone VARCHAR(255) NOT NULL,
+        Symptoms VARCHAR(255) NOT NULL,
+        Test VARCHAR(255) NOT NULL,
+        Results VARCHAR(255) NOT NULL,
+        Send_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+        Status VARCHAR(100) NOT NULL
+)";
+
+if (mysqli_query($conn,$sql)) {
+  echo "table_lab_report created successfuly .<br>";
+}
+else {
+  echo "error in creation of table .<br>";
+}
+ ?>
