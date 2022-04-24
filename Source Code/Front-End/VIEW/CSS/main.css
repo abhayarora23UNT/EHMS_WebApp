@@ -386,7 +386,7 @@ margin-top: 28px;
 .Doctors__overview{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   font-size: 1em;
   padding-left: 15px;
   border-radius: 3px;
@@ -416,7 +416,7 @@ margin-top: 28px;
 .Nurses__overview{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   margin-left: 20%;
   padding-left: 15px;
   color: #8488AB;
@@ -447,7 +447,7 @@ margin-top: 28px;
 .Patients__overview{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   margin-left: 20%;
   padding-left: 15px;
   color: #8488AB;
@@ -486,7 +486,7 @@ margin-top: 28px;
 .birth__report{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   padding-left: 15px;
   color: #8488AB;
   border-radius: 3px;
@@ -515,7 +515,7 @@ margin-top: 28px;
 .death__report{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   margin-left: 20%;
   padding-left: 15px;
   color: #8488AB;
@@ -547,7 +547,7 @@ margin-top: 28px;
 .calender{
   width: 30%;
   height: auto;
-  background-image:linear-gradient(to right,#90ee90,#90ee90);
+  background-image:linear-gradient(to right,lightblue,lightskyblue);
   margin-left: 20%;
   padding-left: 15px;
   color: #8488AB;
