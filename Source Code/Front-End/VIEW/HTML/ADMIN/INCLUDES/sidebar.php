@@ -276,7 +276,7 @@ border-bottom: 1px solid silver;
   margin-top: 25px;
   outline: none;
   border: 1px solid silver;
-  font-size: 1.2em;
+  font-size: 1em;
   padding-left: 10px;
 }
 input:focus{
@@ -347,7 +347,7 @@ input:focus{
 .user__session h5{
   font-family: sans-serif;
   margin-top: 30px;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: right;
   color: #ffffff;
 }

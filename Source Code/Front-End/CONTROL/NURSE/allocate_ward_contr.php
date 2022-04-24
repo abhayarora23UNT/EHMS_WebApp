@@ -39,7 +39,7 @@ if ($query) {
 }
 }
 else{
-  $error = 'Fill all fields';
+  $error = 'Fill the data in required fields';
   header("Location: ../../VIEW/HTML/NURSE/allocate_ward.php?error=$error");
 }
 

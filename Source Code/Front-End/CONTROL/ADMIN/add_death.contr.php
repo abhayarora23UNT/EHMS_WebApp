@@ -23,7 +23,7 @@ if ($query) {
 }
 
 else{
-  $error = 'Fill all fields';
+  $error = 'Fill the data in required fields';
   header("Location:  ../../VIEW/HTML/ADMIN/add_death.php?error=$error");
 }
 

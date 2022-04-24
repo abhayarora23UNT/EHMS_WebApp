@@ -49,10 +49,8 @@
 }
 .hospital__address{
   width: 35%;
-  height: auto;
   margin: 0 auto;
-  margin-left:;
-  background-color: inherit;
+  font-size: 0.87em;
   text-align: justify;
 }
 .Address_details{
@@ -61,13 +59,7 @@ margin-top: 20px;
 text-align: justify;
 background-color: inherit;
 }
-.directmessage{
-  width: 45%;
-  height: auto;
-  margin: 0 auto;
-  margin-left:;
-  background-color: inherit;
-}
+
 .contactus__form{
   width: 100%;
   height: auto;
@@ -120,13 +112,14 @@ textarea{
 }
 .submit__btn{
   margin-top: 10px;
+  text-align: center;
 }
 .submit__btn button{
-  width: auto;
-  height: 30px;
+  width: 50%;
+  height: 35px;
   background-color: #00B3AD;
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1em;
   border: none;
   border-radius: 2px;
   outline: none;
@@ -425,10 +418,10 @@ textarea{
   text-align: left;
   width: 190px;
 }
-.directmessage{
+/* .directmessage{
   width: 90%;
   margin:0;
-}
+} */
 .social__accounts{
   width: auto;
   height:210px;
@@ -552,7 +545,7 @@ footer{
   }
   .invitation{
     height: 300px;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;
@@ -575,7 +568,7 @@ footer{
   }
   .invitation{
     height: auto;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;
@@ -597,7 +590,7 @@ footer{
   }
   .invitation{
     height: auto;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;
@@ -619,7 +612,7 @@ footer{
   }
   .invitation{
     height: auto;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;
@@ -641,7 +634,7 @@ footer{
   }
   .invitation{
     height: auto;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;
@@ -686,7 +679,7 @@ footer{
   }
   .invitation{
     height: 275px;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .invitation p{
     font-size: 1em;

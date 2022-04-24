@@ -22,7 +22,7 @@
 								Sign into your account
 							</legend>
 							<p>
-								Please enter your Email and password to log in.<br />
+								Please enter your email and password to log in.<br />
 							</p>
 							<div class="form__inputs">
                 <div class="usericon">

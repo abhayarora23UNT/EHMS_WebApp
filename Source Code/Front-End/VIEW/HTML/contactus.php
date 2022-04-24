@@ -8,41 +8,19 @@
        <link rel="stylesheet" href="../fontawesome/css/all.css">
     <title>contact us</title>
     <style media="screen">
-      .banner { position: absolute;
-                z-index: 9999;
-                padding: .75rem 1.25rem;
-                margin-bottom: 1rem;
-                border: 1px solid transparent;
-                border-radius: .25rem;
-                display: none;
-       }
-       .banner.active { display: block;
-       }
-       .banner-bottom { left: 0;
-                        right: 0;
-                        bottom: 10px;
-        }
-        .banner-top { left: 0; right: 0; top: 10px; }
-        .banner-right { right: 10px; bottom: 10%; min-height: 10vh; }
-        .banner-left { left: 10px; bottom: 10%; min-height: 10vh; }
-        .alert-primary { color: #004085; background-color: #cce5ff; border-color: #b8daff; }
-        .banner-close { position: absolute; right: 1.5%; }
-        .banner-close:after { position: absolute; right: 0; top: 50%; content: 'X'; color: #69f; }
+      
     </style>
   </head>
   <body class="homepage">
         <div class="wrapper">
        <div class="header">
          <div class="top">
-             <div class="title"><a href="index.php">Saint Paul II Hospital</a></div>
+             <!-- <div class="title"><a href="index.php">EHMS</a></div> -->
          </div>
        </div>
        <div class="contactus__content">
          <div class="hospital__address">
-           <h3>Hospital Address:</h3>
-           <div class="Address_details">
-
-         </div>
+          
          <div class="directmessage">
            <h2>Contact Us:</h2>
            <form class="contactus__form" action="../../CONTROL/ADMIN/contactus_contr.php" method="post">
@@ -82,7 +60,7 @@
                     </div>
 
                     </script>
-     								<button type="submit" name="submit">
+     								<button class="wd-50" type="submit" name="submit" title="submit data">
      									Send <i class="fa fa-arrow-circle-right"></i>
      								</button>
      							</div>
@@ -92,33 +70,19 @@
          </div>
 
        </div>
-       <div class="social__accounts">
-         <h2>Social Accounts</h2>
-         <div class="facebook">
-           <i class="fab fa-facebook-f"></i>
-         <a href="https://web.facebook.com/victor.mutua.144?ref=bookmarks">facebook</a> <br>
-       </div>
-     <div class="instagram">
-       <i class="fab fa-instagram"></i>
-     <a href="https://www.instagram.com/victormtom/">instagram</a> <br>
-   </div>
-   <div class="twitter">
-     <i class="fab fa-twitter"></i>
-   <a href="https://twitter.com/Victor32587693">twitter</a> <br>
- </div>
-   <div class="whatsapp">
-     <i class="fab fa-whatsapp"></i>
-   <a href="#">whatsapp</a> <br>
- </div>
+       
+    
+  
+  
 
        </div>
     <footer>
       <div class="footer__content">
-        <ul class="footer__list">
+        <!-- <ul class="footer__list">
           <li class="home"><a  href="index.php">HOME</a></li>
           <li class="footer__divider"></li>
           <li class="contactus"><a href="contactus.php">CONTACT US</a></li>
-        </ul>
+        </ul> -->
 
       </div>
 

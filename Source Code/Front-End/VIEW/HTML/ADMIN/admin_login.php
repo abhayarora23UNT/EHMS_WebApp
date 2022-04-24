@@ -21,8 +21,8 @@
 							<legend>
 								Sign into your account
 							</legend>
-							<p>
-								Please enter your Email and password to log in.<br />
+							<p style="margin-top:10px">
+								Please enter your email and password to log in.<br />
 							</p>
 							<div class="form__inputs">
                 <div class="usericon">
@@ -52,17 +52,17 @@
 
 						</fieldset>
 					</div>
-          <div class="login__footer">
+          <!-- <div class="login__footer">
             <i class="fal fa-at"></i><?php echo date('Y'); ?>  ELECTRONIC HOSPITAL MANAGEMENT SYSTEM 
-          </div>
+          </div> -->
           </div>
           <footer>
             <div class="footer__content">
-              <ul class="footer__list">
+              <!-- <ul class="footer__list">
                 <li class="home"><a  href="../index.php">HOME</a></li>
                 <li class="footer__divider"></li>
                 <li class="contactus"><a href="../contactus.php">CONTACT US</a></li>
-              </ul>
+              </ul> -->
 
             </div>
 

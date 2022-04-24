@@ -81,7 +81,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
       height: 30px;
       background-color: #00B3AD;
       color: #ffffff;
-      font-size: 1.2em;
+      font-size: 1em;
       border: none;
       border-radius: 2px;
       outline: none;

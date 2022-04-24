@@ -38,7 +38,7 @@ else{
 }
 else{
 
-  $error = 'Fill all fields';
+  $error = 'Fill the data in required fields';
   header("Location: ../../VIEW/HTML/DOCTOR/nurse_login.php?error=$error");
 }
 

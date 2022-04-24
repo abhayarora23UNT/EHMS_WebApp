@@ -17,7 +17,7 @@ $Phone           = $_POST['Phone'];
   }
 }
 else{
-  $error = "Fill all fields";
+  $error = "Fill the data in required fields";
   header("Location: ../../VIEW/HTML/ADMIN/edit_finance.php?error=$error");
 }
 

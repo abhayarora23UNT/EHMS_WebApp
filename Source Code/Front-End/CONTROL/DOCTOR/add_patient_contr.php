@@ -42,7 +42,7 @@ if ($query) {
 }
 
 else{
-  $error = 'Fill all fields';
+  $error = 'Fill the data in required fields';
   header("Location: ../../VIEW/HTML/DOCTOR/add_patients.php?error=$error");
 }
 
