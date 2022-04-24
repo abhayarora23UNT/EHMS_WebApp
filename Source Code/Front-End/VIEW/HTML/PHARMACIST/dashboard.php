@@ -35,7 +35,7 @@ if (!isset($_SESSION['Pharmacist_Email']) && !isset($_SESSION['password'])) {
 		<h1>Pharmacist | Dashboard</h1>
 	</section>
 	<div class="admin__overview">
-		<h4>Overview</h4>
+		<h4></h4>
 		<div class="first__row first__row">
 			<div class="Doctors__overview Doctors__overview--Appointment">
 				<a href="manage_patients.php">
@@ -49,7 +49,7 @@ if (!isset($_SESSION['Pharmacist_Email']) && !isset($_SESSION['password'])) {
 					?>
 				</div>
 				<div class="doc__icon">
-					<i class="fas fa-stethoscope"></i>
+					<i class="fas fa-stethoscope" style='color:black'></i>
 				</div>
 				<h6></h6>
 			</div>

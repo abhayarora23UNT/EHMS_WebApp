@@ -20,7 +20,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 		<h1>Admin | Dashboard</h1>
 	</section>
 	<div class="admin__overview">
-		<h4>Overview</h4>
+		<h4></h4>
 		<div class="first__row">
 			<div class="Doctors__overview">
 				<a href="manage_doctor.php">
@@ -34,7 +34,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					?>
 				</div>
 				<div class="doc__icon">
-					<i class="fas fa-stethoscope"></i>
+					<i class="fas fa-stethoscope" style='color:black'></i>
 				</div>
 				<h6>Doctors</h6>
 			</div>
@@ -52,9 +52,9 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					?>
 				</div>
 				<div class="nurse__icon">
-					<i class="fas fa-user-md"></i>
+					<i class="fas fa-user-md" style='color:black'></i>
 				</div>
-				<h6>Nurses</h6>
+				<h6 style='color:black'>Nurses</h6>
 			</div>
 			</a>
 			</div>
@@ -70,9 +70,9 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					?>
 				</div>
 				<div class="Patients__icon">
-					<i class="fas fa-users"></i>
+					<i class="fas fa-users" style='color:black'></i>
 				</div>
-				<h6>Patients</h6>
+				<h6 style="color:black">Patients</h6>
 			</div>
       </a>
 			</div>
@@ -90,10 +90,10 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					echo $total_number;
 					?>
 				</div>
-				<div class="birth__icon">
-					<i class="fas fa-users"></i>
+				<div class="birth__icon" style="color:black">
+					<i class="fas fa-users" style="color:black"></i>
 				</div>
-				<h6>Lab Technician</h6>
+				<h6 style="color:black">Lab Technician</h6>
 			</div>
 			</a>
 			</div>
@@ -108,14 +108,14 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					echo $total_number;
 					?>
 				</div>
-				<div class="death__icon">
-					<i class="fas fa-users"></i>
+				<div class="death__icon" style='color:black'>
+					<i class="fas fa-users" style='color:black'></i>
 				</div>
-				<h6>MEDICINE</h6>
+				<h6 style='color:black'>MEDICINE</h6>
 			</div>
 			</a>
 			</div>
-			<div class="calender">
+			<div class="calender" style='color:black !important'>
 				<a href="manage_payments.php">
 				<div class="calender__overview__content">
 				<div class="current__date">
@@ -126,10 +126,10 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					echo $total_number;
 					?>
 				</div>
-				<div class="date__icon">
-					<i class="fas fa-clock"></i>
+				<div class="date__icon" style='color:black'>
+					<i class="fas fa-clock" style='color:black'></i>
 				</div>
-				<h6>PAYMENT</h6>
+				<h6 style='color:black'>PAYMENT</h6>
 			</div>
 			</div>
 			</a>

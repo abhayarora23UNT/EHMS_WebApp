@@ -283,12 +283,13 @@ input:focus{
   margin-top: 13px;
 }
 .notification__area{
-  width: 15%;
+  width:20%;
   height: auto;
   background-color: inherit;
   padding: 0.5px;
   margin-left: 0px;
   display: flex;
+  margin-left:27vw;
 }
 .notification {
   background-color: inherit;

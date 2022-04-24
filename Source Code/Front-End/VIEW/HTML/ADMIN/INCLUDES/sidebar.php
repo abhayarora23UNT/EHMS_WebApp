@@ -309,6 +309,7 @@ input:focus{
   padding: 0.5px;
   margin-left: 0px;
   display: flex;
+  margin-left:27vw;
 }
 .notification {
   background-color: lightblue;
@@ -338,9 +339,6 @@ input:focus{
   color: #ffffff;
 }
 .user__session{
-  width: auto;
-  height: auto;
-  margin: 0 auto;
   padding-right:7px;
   background-color: lightblue;
 }
@@ -393,7 +391,7 @@ input:focus{
   <a href="admin_dashboard.php">Dashboard</a> <br>
 </div>
   <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
+    <i class="fas fa-stethoscope" style='color:black'></i>
     Doctors<br>
     </div>
     <div class="Doctor__content">
@@ -401,7 +399,7 @@ input:focus{
   <a href="manage_doctor.php">Manage Doctors</a><br>
   </div>
   <div class="Nurses">
-    <i class="fas fa-user-md"></i>
+    <i class="fas fa-user-md" style='color:black'></i>
     Nurses<br>
     </div>
     <div class="Nurse__content">
@@ -409,7 +407,7 @@ input:focus{
   <a href="manage_nurse.php">Manage Nurses</a><br>
   </div>
   <div class="Nurses">
-    <i class="fas fa-user-md"></i>
+    <i class="fas fa-user-md" style='color:black'></i>
     Finance<br>
     </div>
     <div class="Nurse__content">
@@ -418,7 +416,7 @@ input:focus{
   <a href="manage_cashier.php">Manage Finance</a><br>
   </div>
   <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
+    <i class="fas fa-stethoscope" style='color:black'></i>
     Pharmacist<br>
     </div>
     <div class="Doctor__content">
@@ -456,19 +454,14 @@ Settings <br>
 </div>
 <div class="Settings__content">
 <a href="change_password.php">Change Password</a><br>
-<a href="logout.php">Log 0ut</a> <br>
+<a href="logout.php">Log out</a> <br>
 </div>
     </div>
 </div>
 
 <div class="admin__header">
 <div class="admin__header__content">
-  <div class="admin__title">
-    <title>Electronic Hospital Management System</title>
-<h3>ADMIN  <a href="logout.php">
-        <button>LOGOUT</button>
-    </a></h3>
-  </div>
+     
   <div class="notification__area">
     <?php
     $sql="SELECT * FROM table_contactus WHERE Msg_status='Unseen'";
@@ -499,6 +492,9 @@ Settings <br>
 ?>
 <div class="admin__avatar" style='padding-top:5%'>
 <span class="admin_icon" style='color:black' ><i class="fa fa-user" aria-hidden="true"></i></span>
+<a href="logout.php" style='margin-top: -0.5%;margin-left: 0.5%;'>
+        <button>LOGOUT</button>
+    </a>
 </div>
 
 </div>

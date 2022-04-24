@@ -16,7 +16,7 @@
         <div class="container">  
    <br />
    <div class="table-responsive">  
-    <h3 align="center">ADD DOCTOR(ALLAN ADMIN)</h3><br />
+    <h3 align="center">ADD DOCTOR(ADMIN)</h3><br />
     <div id="grid_table"></div>
    </div>  
   </div>

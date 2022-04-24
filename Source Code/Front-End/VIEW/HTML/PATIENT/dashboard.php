@@ -45,7 +45,7 @@ ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
 		<h1>Patient | Dashboard</h1>
 	</section>
 	<div class="admin__overview">
-		<h4>Overview</h4>
+		<h4></h4>
 		<div class="first__row first__row">
 			<div class="Doctors__overview Doctors__overview--Appointment">
 				<a href="appointment_history.php">
@@ -59,7 +59,7 @@ ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
 					?>
 				</div>
 				<div class="doc__icon">
-					<i class="fas fa-stethoscope"></i>
+					<i class="fas fa-stethoscope" style='color:black'></i>
 				</div>
 				<h6>My appointments</h6>
 			</div>

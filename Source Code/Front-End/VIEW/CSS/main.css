@@ -400,11 +400,11 @@ margin-top: 28px;
 }
 .Doctors__overview h6{
   font-size: 1.1em;
-  color:#ffffff;
+  color:black;
 }
 .total__docs{
   font-size: 1.1em;
-  color:#ffffff;
+  color:black;
 }
 .doc__icon{
   color: #9EB2B2;
@@ -434,7 +434,7 @@ margin-top: 28px;
 }
 .total__nurses{
   font-size: 1.3em;
-  color:#ffffff;
+  color:black;
 }
 .nurse__icon{
   color: #9EB2B2;
@@ -465,10 +465,10 @@ margin-top: 28px;
 }
 .total__patients{
   font-size: 1.3em;
-  color:#ffffff;
+  color:black;
 }
 .Patients__icon{
-  color: #9EB2B2;
+  color: black;
   margin-left: 200px;
 }
 .Patients__icon i{
@@ -498,7 +498,7 @@ margin-top: 28px;
   margin-top: 30px;
 }
 .total__births{
-  color:#ffffff;
+  color:black;
   font-size: 1.3em;
 }
 .birth__icon{
@@ -528,7 +528,7 @@ margin-top: 28px;
   margin-top: 30px;
 }
 .total__deaths{
-  color:#ffffff;
+  color:black;
   font-size: 1.3em;
 }
 .death__icon{
@@ -540,7 +540,7 @@ margin-top: 28px;
 }
 .calender h6{
   font-size: 1.3em;
-  color:#ffffff;
+  color:black;
 }
 
 
@@ -550,7 +550,7 @@ margin-top: 28px;
   background-image:linear-gradient(to right,lightblue,lightskyblue);
   margin-left: 20%;
   padding-left: 15px;
-  color: #8488AB;
+  color: black;
   border-radius: 3px;
   border-left: 3px solid #6BD4E0;
 }
