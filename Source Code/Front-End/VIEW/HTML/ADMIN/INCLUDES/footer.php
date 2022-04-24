@@ -5,9 +5,16 @@
     <title></title>
   </head>
   <body>
-    <footer class="dashboard__footer">
-      <i class="fal fa-at"></i><?php echo date('Y'); ?>ELECTRONIC HOSPITAL MANAGEMENT SYSTEM .All Rights Reserved
-    </footer>
+  <footer>
+     <div class="footer__content">
+       <ul class="footer__list">
+         <li class="home"><a  href="index.php">@2022 Electronic Hospital Management System</a></li>
+        
+       </ul>
+
+     </div>
+
+   </footer>
 
   </body>
 </html>

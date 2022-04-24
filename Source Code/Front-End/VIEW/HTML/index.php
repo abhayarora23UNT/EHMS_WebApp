@@ -13,9 +13,9 @@
    
    <div class="nav">
      <div class="nav__content">
-     <a href ="#" style='margin-left:0%'><img src="../images/hlogo.jpg" height="55" width="90" alt="Image resize"></a>
+     <a href ="#" style='margin-left:0%'><img src="../images/hlogo.jpg" height="35" width="80" alt="Image resize"></a>
      
-     <div class="title"><a href="index.php" style='margin-left:-138%'>Electronic Hospital Management System</a></div>
+     <div class="title"><a href="index.php" style='margin-left:-57%'>Electronic Hospital Management System</a></div>
      <div class="nurse_icon" style="margin-left: inherit">
         <i class="fa fa-info" aria-hidden="true"></i>
         <a href="../HTML/aboutUs.php"<span>About Us</span></a>
@@ -28,7 +28,7 @@
 
      <div class="doctor_icon" style="margin-left: inherit">
         <i class="fa fa-user" aria-hidden="true"></i>
-        <a href="PATIENT/patient_login.php"<span>Register</span></a>
+        <a href="PATIENT/signup.php"<span>Register</span></a>
      </div>
 
      <div class="admin_icon" style="margin-left: inherit">
@@ -47,7 +47,7 @@
        <p> Where  patients are allowed  to schedule appointments with doctors in specifically available slots for routine checkups or treatment opinions. Only permitted users can be part of this system. </p>
      </div>
    </div>
-   <div class="homePic" >
+   <div class="center" >
      <img src="../images/index.jpg" alt="">
    </div>
    <footer>

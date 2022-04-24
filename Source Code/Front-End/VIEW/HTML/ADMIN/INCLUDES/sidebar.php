@@ -257,7 +257,7 @@ border-bottom: 1px solid silver;
 .admin__header{
   width: 100%;
   height: 80px;
-  background-color:#90ee90;
+  background-color:lightblue;
   border-bottom: 1px solid silver;
   border-radius: 5px;
   display: ;
@@ -285,7 +285,7 @@ input:focus{
 .admin__header__content{
   width: 50%;
   height: auto;
-  background-color: #00B3AD;
+  background-color: lightblue;
   float: right;
   display: flex;
 }
@@ -305,13 +305,13 @@ input:focus{
 .notification__area{
   width: 20%;
   height: auto;
-  background-color: #90ee90;
+  background-color: lightblue;
   padding: 0.5px;
   margin-left: 0px;
   display: flex;
 }
 .notification {
-  background-color: #90ee90;
+  background-color: lightblue;
   color: white;
   text-decoration: none;
   padding: 7px 9px;
@@ -325,7 +325,7 @@ input:focus{
   color: #ffffff;
 }
 .notification .badge:hover {
-  background:#09AFFF;
+  background:lightblue;
 }
 
 .notification .badge {
@@ -342,7 +342,7 @@ input:focus{
   height: auto;
   margin: 0 auto;
   padding-right:7px;
-  background-color: #90ee90;
+  background-color: lightblue;
 }
 .user__session h5{
   font-family: sans-serif;
@@ -397,7 +397,7 @@ input:focus{
     Doctors<br>
     </div>
     <div class="Doctor__content">
-  <a href="indexx.php">Add Doctor</a><br>
+  <a href="add_doctor.php">Add Doctor</a><br>
   <a href="manage_doctor.php">Manage Doctors</a><br>
   </div>
   <div class="Nurses">
@@ -467,7 +467,8 @@ Settings <br>
 <div class="admin__header">
   <div class="admin__header__content">
   <div class="admin__title">
-<h3>ALLAN(ADMIN)  <a href="logout.php">
+    <title>Electronic Hospital Management System</title>
+<h3>ADMIN  <a href="logout.php">
         <button>LOGOUT</button>
     </a></h3>
   </div>
@@ -509,9 +510,7 @@ Settings <br>
 </a>
 </div>
 </div>
-<div class="search__bar">
-  <input type="text" name="" placeholder="Search..."value="">
-</div>
+
 </div>
 <script>
 function closeNav() {
@@ -519,7 +518,7 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
   document.getElementById("section__content").style.marginLeft= "0";
   document.getElementById("section__content").style.backgroundColor= "#F0F0F9";
-  document.getElementById("admin__dashboard").style.marginLeft= "0px";
+  document.getElementById("admin__dashboard").style.marginLeft= "0";
   document.body.style.backgroundColor = "white";
 }
 function openNav() {
@@ -527,7 +526,7 @@ function openNav() {
   document.getElementById("main").style.marginLeft = "250px";
   document.getElementById("section__content").style.marginLeft = "305px";
   document.getElementById("section__content").style.backgroundColor= "#F0F0F9";
-  document.getElementById("admin__dashboard").style.marginLeft= "0px";
+  document.getElementById("admin__dashboard").style.marginLeft= "0";
   document.body.style.backgroundColor = "#ffffff";
 }
 

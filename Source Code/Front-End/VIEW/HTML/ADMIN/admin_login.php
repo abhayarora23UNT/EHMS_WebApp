@@ -1,5 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<div class="wrapper" style='width:90% !important'>
+<div class="nav">
+     <div class="nav__content">
+     <a href ="#" style='margin-left:0%'><img src="../../images/hlogo.jpg" height="35" width="80" alt="Image resize"></a>
+     
+     <div class="title"><a href="../index.php" style='margin-left:-57%'>Electronic Hospital Management System</a></div>
+     <div class="nurse_icon" style="margin-left: inherit">
+        <i class="fa fa-info" aria-hidden="true"></i>
+        <a href="../aboutUs.php"<span>About Us</span></a>
+     </div>
+
+     <div class="doctor_icon" style="margin-left: inherit">
+        <i class="fa fa-envelope-open" aria-hidden="true"></i>
+        <a href="../contactus.php"<span>Contact Info</span></a>
+     </div>
+
+     <div class="doctor_icon" style="margin-left: inherit">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <a href="../PATIENT/signup.php"<span>Register</span></a>
+     </div>
+
+     <div class="admin_icon" style="margin-left: inherit">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <a href="../PATIENT/Module.php"<span>Log In</span></a>
+     </div>
+ </div>
+   </div>
+
+</div>
+</div>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">.
@@ -57,16 +87,15 @@
           </div> -->
           </div>
           <footer>
-            <div class="footer__content">
-              <!-- <ul class="footer__list">
-                <li class="home"><a  href="../index.php">HOME</a></li>
-                <li class="footer__divider"></li>
-                <li class="contactus"><a href="../contactus.php">CONTACT US</a></li>
-              </ul> -->
+     <div class="footer__content">
+       <ul class="footer__list">
+         <li class="home"><a  href="index.php">@2022 Electronic Hospital Management System</a></li>
+        
+       </ul>
 
-            </div>
+     </div>
 
-          </footer>
+   </footer>
           <script type="text/javascript">
           const pass__toggle=document.querySelector('#pass__toggle');
           const password=document.querySelector('#password');

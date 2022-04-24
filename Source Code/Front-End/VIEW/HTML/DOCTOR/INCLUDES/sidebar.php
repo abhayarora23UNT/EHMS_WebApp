@@ -237,7 +237,7 @@ border-bottom: 1px solid silver;
 .admin__header{
   width: 100%;
   height: 80px;
-  background-color:inherit;
+  background-color:lightblue;
   border-bottom: 1px solid silver;
   border-radius: 5px;
   display: ;
@@ -245,7 +245,7 @@ border-bottom: 1px solid silver;
 .search__bar{
   width: 50%;
   height: 80px;
-  background-color: inherit;
+  background-color: lightblue;
     border-bottom: 1px solid silver;
   padding: 0.5px;
   margin-left: 3px;
