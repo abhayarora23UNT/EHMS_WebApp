@@ -460,12 +460,9 @@ Settings <br>
 </div>
     </div>
 </div>
-<div id="main">
-  <span style="font-size:30px;cursor:pointer;position:absolute;margin: 0;
-  top: 0;" onclick="openNav()">&#9776;</span>
-  </div>
+
 <div class="admin__header">
-  <div class="admin__header__content">
+<div class="admin__header__content">
   <div class="admin__title">
     <title>Electronic Hospital Management System</title>
 <h3>ADMIN  <a href="logout.php">
@@ -500,16 +497,36 @@ Settings <br>
   $sql="SELECT * FROM table_admin WHERE Name ='$User'";
   $query=mysqli_query($conn,$sql);
 ?>
-<div class="admin__avatar">
-  <a href="update_profile.php">
-    <?php
-     while ($row = mysqli_fetch_array($query)) {
-       echo "<img src='../../images/".$row['Avatar']."' >";
-     }
-   ?>
-</a>
+<div class="admin__avatar" style='padding-top:5%'>
+<span class="admin_icon" style='color:black' ><i class="fa fa-user" aria-hidden="true"></i></span>
 </div>
+
 </div>
+<div id="main" style='margin-top:1%'>
+  <span style="font-size:30px;cursor:pointer;position:absolute;margin-top: 1%;
+  top: 0;" onclick="openNav()">&#9776;</span>
+  </div>
+<left><a href ="#" style='margin-left:3%'><img src="hlogo.jpg" height="35" width="80" alt="Image resize"></a></center>
+ ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
+	<title>Admin  | Dashboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">.
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<link rel="stylesheet" href="../../fontawesome/css/all.css">
+	<link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fa-brands.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fa-regular.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fa-regular.min.css">
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../themify-icons/themify-icons.min.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
+	<link rel="stylesheet" href="../../fontawesome/css/fontawesome.min.css">
+	<style media="screen">
+	</style>
+
 
 </div>
 <script>

@@ -10,26 +10,6 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<left><a href ="#"><img src="hlogo.jpg" height="55" width="100" alt="Image resize"></a></center><br>
-ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
-	<title>Admin  | Dashboard</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">.
-	<link rel="stylesheet" href="../../css/style.css">
-	<link rel="stylesheet" href="../../css/main.css">
-	<link rel="stylesheet" href="../../fontawesome/css/all.css">
-	<link rel="stylesheet" href="../../fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fa-brands.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fa-regular.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fa-regular.min.css">
-	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../../themify-icons/themify-icons.min.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
-	<link rel="stylesheet" href="../../fontawesome/css/fontawesome.min.css">
-	<style media="screen">
-	</style>
 </head>
 	<body>
 <?php include('../ADMIN/INCLUDES/sidebar.php');?>
