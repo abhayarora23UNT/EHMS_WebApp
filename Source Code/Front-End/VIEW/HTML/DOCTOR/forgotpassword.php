@@ -52,17 +52,16 @@
 					</form>
           
           </div>
-          <footer>
-            <div class="footer__content">
-              <ul class="footer__list">
-                <li class="home"><a  href="../index.php">HOME</a></li>
-                <li class="footer__divider"></li>
-                <li class="contactus"><a href="../contactus.php">CONTACT US</a></li>
-              </ul>
+         <footer>
+     <div class="footer__content">
+       <ul class="footer__list">
+         <li class="home"><a class="fontBold" href="index.php">@2022 Electronic Hospital Management System</a></li>
+        
+       </ul>
 
-            </div>
+     </div>
 
-          </footer>
+   </footer>
 
 
   </body>
