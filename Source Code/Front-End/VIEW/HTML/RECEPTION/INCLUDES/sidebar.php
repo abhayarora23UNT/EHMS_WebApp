@@ -434,7 +434,7 @@
                 <a href="#">Check Patient Appointments</a><br>
             </div>
             <div class="Search__Patients">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-search" style='color:black'></i>
                 <a href="#">Search Patient Appointment</a> <br>
             </div>
 

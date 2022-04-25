@@ -434,7 +434,7 @@
                 <a href="appointment_history.php">Check Appointments</a><br>
             </div>
             <div class="Search__Patients">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-search" style='color:black'></i>
                 <a href="book_appointment.php">Book Appointment</a> <br>
             </div>
 
