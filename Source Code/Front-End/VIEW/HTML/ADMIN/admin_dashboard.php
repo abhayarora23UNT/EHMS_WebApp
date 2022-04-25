@@ -9,7 +9,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>   
 </head>
 	<body>
 <?php include('../ADMIN/INCLUDES/sidebar.php');?>
@@ -17,7 +17,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 <div id="section__content" class="section__content">
 	<section id="admin__dashboard" class="admin__dashboard">
-		<h1>Admin | Dashboard</h1>
+		<h1 style="margin-left:20px">Admin | Dashboard</h1>
 	</section>
 	<div class="admin__overview">
 		<h4></h4>
@@ -115,10 +115,10 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 			</div>
 			</a>
 			</div>
-			<div class="calender" style='color:black !important'>
+			<div class="calender" >
 				<a href="manage_payments.php">
 				<div class="calender__overview__content">
-				<div class="current__date">
+				<div class="current__date" style='color:black !important'>
 					<?php
 					$sql="SELECT * FROM table_finance";
 					$query=mysqli_query($conn,$sql);

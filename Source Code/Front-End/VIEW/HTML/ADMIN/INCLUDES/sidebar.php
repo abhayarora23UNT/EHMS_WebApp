@@ -459,7 +459,7 @@ Settings <br>
     </div>
 </div>
 
-<div class="admin__header">
+<div class="admin__header" >
 <div class="admin__header__content">
      
   <div class="notification__area">
@@ -490,21 +490,26 @@ Settings <br>
   $sql="SELECT * FROM table_admin WHERE Name ='$User'";
   $query=mysqli_query($conn,$sql);
 ?>
-<div class="admin__avatar" style='padding-top:5%'>
+<div class="admin__avatar" style='padding-top:28px'>
 <span class="admin_icon" style='color:black' ><i class="fa fa-user" aria-hidden="true"></i></span>
-<a href="logout.php" style='margin-top: -0.5%;margin-left: 0.5%;'>
+<a href="logout.php" style='margin-top: -0.5%;margin-left: 30px;'>
         <button>LOGOUT</button>
     </a>
 </div>
 
 </div>
-<div id="main" style='margin-top:1%'>
-  <span style="font-size:30px;cursor:pointer;position:absolute;margin-top: 1%;
-  top: 0;" onclick="openNav()">&#9776;</span>
+<div id="main" >
+  <span style="font-size:30px;cursor:pointer;position:absolute;margin-top: 28px;
+  top: 0; margin-left:8px;" onclick="openNav()">&#9776;</span>
   </div>
-<left><a href ="#" style='margin-left:3%'><img src="hlogo.jpg" height="35" width="80" alt="Image resize"></a></center>
- ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
-	<title>Admin  | Dashboard</title>
+<left >
+<div style="padding-top:10px">
+<a href ="#" style='margin-left:3%;margin-top: 28px;'><img src="hlogo.jpg" height="35" width="80" alt="Image resize"></a></center>
+<span class="heading-title" > Electronic Hospital Management System </span>
+<title>Admin  | Dashboard</title>
+</div>
+
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../../css/style.css">
