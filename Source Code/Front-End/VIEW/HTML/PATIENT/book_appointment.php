@@ -91,9 +91,10 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
         <section id="admin__dashboard" class="admin__dashboard">
             <h2 style="padding-left:15px">Patient | Book Appointment</h2>
         </section>
+        <span style='display: flex;justify-content:center;'>
         <div class="book__appointment__box">
             <div class="book__appointment__content">
-                <label>Book Appointment</label> as user...'<b> <u> <?php echo $_SESSION['Email']; ?></u></b>'
+                <label>Booking Appointment</label> for'<b> <u> <?php echo $_SESSION['Email']; ?></u></b>'
                 <p style="color:red;font-size:1.2em;">
                     <?php
 	if (isset($_GET['error'])) {
@@ -108,7 +109,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 	}
 	 ?>
                 </p>
-                <form action="get_doctor.php" method="POST">
+                <form  action="get_doctor.php" method="POST">
                     <label>Doctor Specialization</label>
                     <select name="Specialization" onChange="getdoctor(this.value);" required>
                         <option value="">Specialization</option>
@@ -129,11 +130,11 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
                     <label>Consulation fees</label>
                     <select name="Fees"><br>
                         <option value="1000">1000</option>
-                    </select>
+                    </select> <br>
                     <label>Date</label>
-                    <input type="date" name="Date" required="required"><br>
+                    <input type="date" name="Date" required="required" style='width:400'><br>
                     <label>Time</label>
-                    <input type="time" name="Time" required><br>
+                    <input type="time" name="Time" required style='width:400'><br>
                     <div class="submit__btn">
                         <button type="submit" name="submit">
                             Book <i class="fa fa-arrow-circle-right"></i>
