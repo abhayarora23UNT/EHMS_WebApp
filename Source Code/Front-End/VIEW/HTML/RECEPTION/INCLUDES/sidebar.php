@@ -154,7 +154,7 @@
 
     .Patients {
         width: auto;
-        height: 59px;
+        height: 37px;
         margin-top: 20px;
         font-size: 1.3em;
         color: black;

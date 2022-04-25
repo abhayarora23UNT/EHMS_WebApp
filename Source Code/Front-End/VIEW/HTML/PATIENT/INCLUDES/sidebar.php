@@ -153,7 +153,7 @@
 
     .Patients {
         width: auto;
-        height: 59px;
+        height: 37px;
         margin-top: 20px;
         font-size: 1.3em;
         color: black;
@@ -231,7 +231,7 @@
 
     .Search__Patients {
         width: auto;
-        height: 50px;
+        height: 37px;
         margin-top: 20px;
         font-size: 1.3em;
         border-bottom: 1px solid silver;
@@ -386,7 +386,7 @@
     }
 
     .admin__avatar {
-        width: 14%;
+        width: 14.5%;
         height: 76px;
         border-radius: 60px;
         background-color: ;
@@ -470,7 +470,7 @@
                     <span class="badge"><?php echo $Not_approved; ?></span>
                 </a>
             </div>
-            <div class="user__session" style='margin-left: -4%;'>
+            <div class="user__session">
                 <h5><?php echo strtolower(ucfirst($_SESSION['Email'])); ?></h5>
             </div>
             <?php
@@ -504,7 +504,25 @@
                         alt="Image resize"></a></center>
                 <span class="heading-title"> Electronic Hospital Management System </span>
                 <title>Admin | Dashboard</title>
-            </div>   
+            </div> 
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../../css/style.css">
+            <link rel="stylesheet" href="../../css/main.css">
+            <link rel="stylesheet" href="../../fontawesome/css/all.css">
+            <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-brands.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-regular.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-regular.min.css">
+            <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../../themify-icons/themify-icons.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome.min.css">
+            <style media="screen">
+            </style>
+  
     </div>
     <script>
     function closeNav() {
