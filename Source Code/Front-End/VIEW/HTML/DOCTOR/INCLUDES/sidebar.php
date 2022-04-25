@@ -383,7 +383,7 @@
         margin-top: 30px;
         font-size: 1em;
         text-align: right;
-        color: #ffffff;
+        color: black;
     }
 
     .admin__avatar {

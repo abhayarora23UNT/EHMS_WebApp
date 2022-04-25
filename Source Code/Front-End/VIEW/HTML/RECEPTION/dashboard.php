@@ -65,7 +65,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 					?>
                     </div>
                     <div class="death__icon">
-                        <i class="fas fa-clock"></i>
+                          <i class="fas fa-clock" style='color:black'></i>
                     </div>
                     <h6>Date</h6>
                 </div>

@@ -128,7 +128,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					echo $total_number;
 					?>
                             </div>
-                            <div class="date__icon" style='color:black'>
+                            <div class="date__icon">
                                 <i class="fas fa-clock" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>PAYMENT</h6>

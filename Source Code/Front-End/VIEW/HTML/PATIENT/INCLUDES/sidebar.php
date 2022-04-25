@@ -315,7 +315,7 @@
     }
 
     .admin__header__content {
-        width: 55%;
+        width: 50%;
         height: auto;
         background-color: lightblue;
         float: right;
@@ -323,13 +323,14 @@
     }
 
     .admin__title {
-        width: 50%;
         height: 50px;
+        /*
+        width: 50%;
         margin: 0 auto;
         text-align: center;
         background-color: white;
         margin-top: 10px;
-        border-radius: 5px;
+        border-radius: 5px; */
     }
 
     .admin__title h3 {
@@ -343,7 +344,7 @@
         padding: 0.5px;
         margin-left: 0px;
         display: flex;
-        margin-left: 27vw;
+        margin-left: 21vw;
     }
 
     .notification {
@@ -381,7 +382,7 @@
         margin-top: 30px;
         font-size: 1em;
         text-align: right;
-        color: #ffffff;
+        color: black;
     }
 
     .admin__avatar {
@@ -457,11 +458,6 @@
     </div>
     <div class="admin__header">
         <div class="admin__header__content">
-            <div class="admin__title">
-                <h3><a href="logout.php">
-                        <button>LOGOUT</button>
-                    </a></h3>
-            </div>
             <div class="notification__area">
                 <?php
     $User=$_SESSION['Email'];
@@ -482,14 +478,19 @@
     $sql="SELECT * FROM table_patients2 WHERE Email ='$User'";
     $query=mysqli_query($conn,$sql);
    ?>
-            <div class="admin__avatar">
+            <!-- <div class="admin__avatar">
                 <a href="update_profile.php">
-                    <?php
-       while ($row = mysqli_fetch_array($query)) {
-         	echo "<img src='../../images/".$row['Avatar']."' >";
-       }
-     ?>
+                     <?php
+    //    while ($row = mysqli_fetch_array($query)) {
+    //      	echo "<img src='../../images/".$row['Avatar']."' >";
+    //    }
+     ?> 
                 </a>
+            </div> -->
+            <div class="admin__title">
+                <h3><a href="logout.php">
+                        <button>LOGOUT</button>
+                    </a></h3>
             </div>
         </div>
         <div id="main">
