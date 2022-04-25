@@ -57,22 +57,22 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Admin | Manage Patients</h1>
+            <h2 style="padding-left:15px">Admin | Manage Patients</h2>
         </section>
         <div class="view__patients">
             <div class="view__patients__content">
-                <div class="search__title">
+                <div class="search__title" style="padding-left:15px">
                     <h6>Search</h6>
                 </div>
-                <div class="search__input">
+                <div class="search__input" style="padding-left:15px">
                     <input type="text" id="myInput" onkeyup="mySearch()" required data-input
-                        placeholder="select date ...">
+                        placeholder="select date from picker">
                     <input type="text" id="Phone_search" onkeyup="Phone_search()" required data-input
-                        placeholder="Search by phone">
+                        placeholder="Search by phone" style="margin-top:12px">
                 </div>
             </div>
         </div>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:30px">
             <thead>
                 <tr>
                     <th>#</th>

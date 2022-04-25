@@ -11,7 +11,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 <html lang="en">
 
 <head>
-    <title>Admin | Manage Finance</title>
+    <title>Admin | Manage Cashier</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
@@ -54,7 +54,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Admin | Manage Finance</h1>
+            <h2 style="padding-left:15px">Admin | Manage Cashier</h2>
         </section>
         <div class="view__patients">
             <div class="view__patients__content">
@@ -72,16 +72,16 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 				}
 				 ?>
                 </p>
-                <div class="search__title">
+                <div class="search__title" style="padding-left:15px">
                     <h6>Search by Email</h6>
                 </div>
-                <div class="search__input">
+                <div class="search__input" style="padding-left:15px">
                     <input type="text" id="myInput" placeholder="eg. abc@gmail.com" onkeyup="mySearch()" required
                         value="">
                 </div>
             </div>
         </div>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:10px">
             <thead>
                 <tr>
                     <th>#</th>

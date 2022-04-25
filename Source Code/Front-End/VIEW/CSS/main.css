@@ -793,6 +793,9 @@ font-size: 1.3em;
   color: #858585;
   font-size: 1.3em;
 }
+.search__title{
+  padding-left:15px
+}
 .search__form{
   display: flex;
 }

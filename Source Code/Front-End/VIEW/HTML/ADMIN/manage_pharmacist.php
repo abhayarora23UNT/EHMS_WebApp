@@ -69,7 +69,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Admin | Manage Pharmacist</h1>
+            <h2 style="padding-left:15px">Admin | Manage Pharmacist</h2>
         </section>
         <p style="color:red;font-size:1.2em;">
             <?php
@@ -85,13 +85,13 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 		}
 		 ?>
         </p>
-        <div class="search__title">
+        <div class="search__title" style="padding-left:15px">
             <h6>Search by Phone</h6>
         </div>
-        <div class="search__input">
+        <div class="search__input" style="padding-left:15px">
             <input type="text" id="myInput" onkeyup="mySearch()" required value="">
         </div>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:30px">
             <thead>
                 <tr>
                     <th>#</th>

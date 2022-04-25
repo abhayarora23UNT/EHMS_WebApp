@@ -476,8 +476,8 @@
             </div>
             <div class="Nurse__content">
                 <a href="add_cashier.php">Add Cashier</a><br>
-                <a href="manage_finance.php">Manage Cashier</a><br>
-                <a href="manage_cashier.php">Manage Finance</a><br>
+                <a href="manage_cashier.php">Manage Cashier</a><br>
+                <a href="manage_finance.php">Manage Finance</a><br>
             </div>
             <div class="Doctors">
                 <i class="fas fa-stethoscope" style='color:black'></i>
