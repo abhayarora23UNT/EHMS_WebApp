@@ -717,3 +717,15 @@ ul li{
   border-left-color: black;
   border-left-width: 6px;
 }
+
+th, td {
+  border:1px solid black;
+  padding:3px !important
+
+}
+
+tr, td {
+  border:1px solid black;
+  padding:3px !important
+
+}

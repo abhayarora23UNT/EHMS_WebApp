@@ -99,7 +99,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Doctor | View Patient</h1>
+            <h2 style="padding-left:20px">Doctor | View Patient</h2>
         </section>
         <?php
 	$Email=$_GET['patient_view_id'];
@@ -160,7 +160,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 	$count=1;
 ?>
         <div class="patient__medical__history">
-            <h3>Lab Result Form</h3>
+            <h3 style="padding-left:20px">Lab Result Form</h3>
             <table border="1">
                 <thead>
                     <tr>

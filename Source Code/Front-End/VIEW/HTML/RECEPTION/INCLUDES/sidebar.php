@@ -161,7 +161,7 @@
     }
 
     .Patients i {
-        color: #2BC3B6;
+        color: black;
     }
 
     .Patients__content {
@@ -262,7 +262,7 @@
     }
 
     .Settings i {
-        color: #2BC3B6;
+        color: black;
     }
 
     .Settings__content {

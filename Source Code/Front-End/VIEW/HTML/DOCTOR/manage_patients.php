@@ -54,9 +54,9 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Doctor | Manage Patients</h1>
+            <h2 style="padding-left:20px">Doctor | Manage Patients</h2>
         </section>
-        <div class="view__patients">
+        <div class="view__patients" style="padding:12px">
             <div class="view__patients__content">
                 <p style="color:red;font-size:1.2em;">
                     <?php
@@ -80,10 +80,10 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
                 </div>
             </div>
         </div>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-top:50px;margin-left:15px">
             <thead>
-                <tr>
-                    <th>#</th>
+                <tr style="padding-left:20px">
+                    <th> #</th>
                     <th>Name</th>
                     <th>Phone</th>
                     <th>Email</th>

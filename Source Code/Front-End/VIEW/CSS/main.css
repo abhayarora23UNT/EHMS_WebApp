@@ -531,7 +531,7 @@ margin-top: 28px;
 }
 .total__deaths{
   color:black;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .death__icon{
   color: #9EB2B2;
@@ -573,7 +573,7 @@ margin-top: 28px;
   font-size: 2em;
 }
 .death__report h6{
-  font-size: 1.3em;
+  font-size: 1.1em;
   color:#ffffff;
 }
 
@@ -644,7 +644,7 @@ margin-top: 28px;
   margin-top: 35px;
 }
 .adddoctor__content{
-  width: 60%;
+  width: 50%;
   height: auto;
   background-color: inherit;
   border: 1px solid silver;

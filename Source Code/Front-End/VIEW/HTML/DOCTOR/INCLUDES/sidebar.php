@@ -160,7 +160,7 @@
     }
 
     .Patients i {
-        color: #2BC3B6;
+        color: black;
     }
 
     .Patients__content {
@@ -261,7 +261,7 @@
     }
 
     .Settings i {
-        color: #2BC3B6;
+        color: black;
     }
 
     .Settings__content {
@@ -379,6 +379,7 @@
 
     .user__session h5 {
         font-family: sans-serif;
+        padding-right:8px;
         margin-top: 30px;
         font-size: 1em;
         text-align: right;
@@ -451,17 +452,10 @@
             </div>
         </div>
     </div>
-    <div id="main">
-        <span style="font-size:30px;cursor:pointer;position:absolute;margin: 0;
-  top: 0;" onclick="openNav()">&#9776;</span>
-    </div>
+    
     <div class="admin__header">
         <div class="admin__header__content">
-            <div class="admin__title">
-                <h3><a href="logout.php">
-                        <button>LOGOUT</button>
-                    </a> </h3>
-            </div>
+
             <div class="notification__area">
                 <?php
     $Doctor_Name=$_SESSION['Doctor'];
@@ -483,7 +477,46 @@
   $query=mysqli_query($conn,$sql);
  ?>
 
-            <div class="admin__avatar">
+<div class="admin__avatar" style='padding-top:28px'>
+                <span class="admin_icon" style='color:black'><i class="fa fa-user" aria-hidden="true"></i></span>
+                <a href="logout.php" style='margin-top: -0.5%;margin-left: 10px;'>
+                    <button>LOGOUT</button>
+                </a>
+            </div>
+
+        </div>
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer;position:absolute;margin-top: 28px;
+  top: 0; margin-left:8px;" onclick="openNav()">&#9776;</span>
+        </div>
+        <left>
+            <div style="padding-top:10px">
+                <a href="#" style='margin-left:3%;margin-top: 28px;'><img src="hlogo.jpg" height="35" width="80"
+                        alt="Image resize"></a></center>
+                <span class="heading-title"> Electronic Hospital Management System </span>
+                <title>Admin | Dashboard</title>
+            </div>
+
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../../css/style.css">
+            <link rel="stylesheet" href="../../css/main.css">
+            <link rel="stylesheet" href="../../fontawesome/css/all.css">
+            <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-brands.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-regular.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fa-regular.min.css">
+            <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../../themify-icons/themify-icons.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
+            <link rel="stylesheet" href="../../fontawesome/css/fontawesome.min.css">
+            <style media="screen">
+            </style>
+
+            <!-- <div class="admin__avatar">
                 <a href="update_profile.php">
                     <?php
        while ($row = mysqli_fetch_array($query)) {
@@ -491,7 +524,7 @@
        }
      ?>
                 </a>
-            </div>
+            </div> -->
         </div>
          
     </div>

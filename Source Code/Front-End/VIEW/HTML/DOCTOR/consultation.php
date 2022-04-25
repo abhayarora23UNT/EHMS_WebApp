@@ -111,7 +111,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
     }
 
     .save__btn {
-        position: ;
+        padding:15px;
     }
 
     textarea .Prescription {
@@ -120,12 +120,12 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
     </style>
 </head>
 
-<body>
+<body style="padding-bottom:100px;background:#F0F0F9">
     <?php include('../DOCTOR/INCLUDES/sidebar.php');?>
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Doctor | Patient Consultation</h1>
+            <h2 style="padding-left:15px">Doctor | Patient Consultation</h2>
         </section>
         <?php
 	$Email= $_GET['Email'];
@@ -142,7 +142,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 	$Age=date("Y") - date("Y",strtotime($Dob));
 ?>
         <?php } ?>
-        <h3>Lab Form</h3>
+        <h3 style="padding-left:15px">Lab Form</h3>
         <form action="consultation.php" method="post">
             <div class="medical__history__form">
                 <table border="1">
@@ -178,7 +178,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
         </form>
 
 
-        <h3>Finance Form</h3>
+        <h3 style="padding-left:15px">Finance Form</h3>
         <?php $Consultation_fee='1000' ?>
         <form action="../../../CONTROL/DOCTOR/payments_contr.php" method="post">
             <div class="medical__history__form">
@@ -222,7 +222,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 
 
 
-        <h3>Pharmacy Form</h3>
+        <h3 style="padding-left:15px">Pharmacy Form</h3>
         <?php $Consultation_fee='1000' ?>
         <form action="../../../CONTROL/DOCTOR/Pharmacy_contr.php" method="post">
             <div class="medical__history__form">
