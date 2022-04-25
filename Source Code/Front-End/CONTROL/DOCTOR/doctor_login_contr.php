@@ -29,7 +29,7 @@ header("Location: ../../VIEW/HTML/DOCTOR/dashboard.php");
 }
 else{
   $error =  "Wrong Username or password";
-  header("Location: ../../VIEW/HTML/DOCTOR/doctor_login.php?error=$error");
+  header("Location: ../../VIEW/HTML/PATIENT/doctor_login.php?error=$error");
 
 }
 
