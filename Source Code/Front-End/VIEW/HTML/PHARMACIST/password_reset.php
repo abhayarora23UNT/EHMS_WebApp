@@ -57,9 +57,7 @@
 
 						</fieldset>
 					</form>
-          <div class="login__footer">
-            <i class="fal fa-at"></i><?php echo date('Y'); ?> Saint Paul II Hospital.All Rights Reserved
-          </div>
+          
           </div>
           <footer>
             <div class="footer__content">
