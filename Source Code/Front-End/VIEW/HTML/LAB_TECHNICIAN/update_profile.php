@@ -49,7 +49,7 @@ if (!isset($_SESSION['Technician_Email']) && !isset($_SESSION['password'])) {
 	<section id="admin__dashboard" class="admin__dashboard">
 		<h1>Technician | Update Profile</h1>
 	</section>
-  <div class="adddoctor__main">
+  <div class="adddoctor__main" style="display:flex;justify-content:center">
   <div class="adddoctor__content">
     <div class="adddoctor__title">
       <h5>Update Profile</h5>

@@ -34,7 +34,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 	<section id="admin__dashboard" class="admin__dashboard">
 		<h1>Patient | Change Password</h1>
 	</section>
-  <div class="adddoctor__main">
+  <div class="adddoctor__main" style="display:flex;justify-content:center">
   <div class="adddoctor__content">
     <div class="adddoctor__title">
       <h5>Change Password</h5>

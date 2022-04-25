@@ -33,7 +33,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 	<section id="admin__dashboard" class="admin__dashboard">
 		<h1>Doctor | Add Patients</h1>
 	</section>
-  <div class="adddoctor__main">
+  <div class="adddoctor__main" style="display:flex;justify-content:center">
   <div class="adddoctor__content">
     <div class="adddoctor__title">
       <h5>Add Patients</h5>
