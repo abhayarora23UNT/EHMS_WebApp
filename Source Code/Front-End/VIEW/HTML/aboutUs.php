@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="../css/style.css">
        <link rel="stylesheet" href="../fontawesome/css/all.css">
        <link rel="stylesheet" href="../fontawesome/css/all.css">
@@ -32,40 +32,41 @@
   </head>
   <body class="homepage">
 <div class="wrapper">
-<div class="nav">
+  <div class="nav">
      <div class="nav__content">
-     <a href ="#" style='margin-left:0%'><img src="../images/hlogo.jpg" height="35" width="80" alt="Image resize"></a>
+     <a href ="#" style='margin-left:0%'><img src="../images/hlogo.jpg" height="40" width="80" alt="Image resize"></a>
      
-     <div class="title"><a href="index.php" style='margin-left:-57%'>Electronic Hospital Management System</a></div>
-     <div class="nurse_icon" style="margin-left: inherit">
+     <div class="title"><a  href="index.php" style='margin-left:-57%'><span class="heading-title">Electronic Hospital Management System</span></a></div>
+     <!-- <div class="nurse_icon" style="margin-left: inherit">
         <i class="fa fa-info" aria-hidden="true"></i>
-        <a href="../HTML/aboutUs.php"<span>About Us</span></a>
-     </div>
+        <a href="../HTML/aboutUs.php"<span class="pl-3">About Us</span></a>
+     </div> -->
 
      <div class="doctor_icon" style="margin-left: inherit">
         <i class="fa fa-envelope-open" aria-hidden="true"></i>
-        <a href="../HTML/contactus.php"<span>Contact Info</span></a>
+        <a href="../HTML/contactus.php"<span class="pl-3">Contact Info</span></a>
      </div>
 
      <div class="doctor_icon" style="margin-left: inherit">
         <i class="fa fa-user" aria-hidden="true"></i>
-        <a href="PATIENT/signup.php"<span>Register</span></a>
+        <a href="PATIENT/signup.php"<span class="pl-3">Register</span></a>
      </div>
 
-     <div class="admin_icon" style="margin-left: inherit">
+     <div class="doctor_icon" style="margin-left: inherit">
       <i class="fa fa-user" aria-hidden="true"></i>
-      <a href="PATIENT/Module.php"<span>Log In</span></a>
+      <a href="PATIENT/Module.php"<span class="pl-3">Log In</span></a>
      </div>
- </div>
+
+      </div>
    </div>
-<div style='font-size:1.2em;margin-left:3%; font-weight:bold'>
+<div style='font-size:1.2em;margin-left:15px; font-weight:bold'>
  About Electronic Hospital Management System <br /><br />
 </div>
 <span>
-<div style='font-size:1em;margin-left:3%'>
+<div style='font-size:1em;margin-left:15px'>
 Electronic Hospital Management System is one of the region’s largest, most comprehensive healthcare providers in the Dallas-Fort Worth area comprised of:
 <br >
-<ul style='float:left'>
+<ul style='float:left;margin-bottom:15px'>
 <li >2 North Texas hospitals</li>
 <li >1 off-campus emergency rooms</li>
 <li >5 ambulatory surgery centers</li>
@@ -86,7 +87,7 @@ Free parking is available for all patients and visitors on the Texas Health Dent
 For more information on where parking is available, view or print a copy of the adjacent campus map.
       </div>
  </div>
- <div>
+ <div style="margin-top:15px">
  <marquee  behavior="scroll" direction="right" >        
           <img src=
 "../images/hospital.jpg"
@@ -110,7 +111,7 @@ For more information on where parking is available, view or print a copy of the 
       <footer>
      <div class="footer__content">
        <ul class="footer__list">
-         <li class="home"><a  href="index.php">@2022 Electronic Hospital Management System</a></li>
+         <li class="home"><a class="fontBold" href="index.php">@2022 Electronic Hospital Management System</a></li>
         
        </ul>
 

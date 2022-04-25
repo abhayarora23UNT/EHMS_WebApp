@@ -12,7 +12,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 	<head>
 		<title>Doctor | Update Profile</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
 		<link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.css">

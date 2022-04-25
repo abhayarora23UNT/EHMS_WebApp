@@ -9,11 +9,10 @@
 .wrapper{
   width: 100%;
   height: auto;
-  margin: 0 auto;
   background-color: inherit;
 }
 .header{
-  width: 95%;
+  width: 100%;
   height: 50px;
   margin: 0 auto;
   background-color:#fdfdfd;
@@ -238,21 +237,21 @@ textarea{
 
 
 .center img{
-  width: 70%;
-  height: 20%;
+  width: 90%;
+  height: 520px;
 }
 .nav{
-  width: 95%;
+  width: 100%;
   height:auto;
   background-color:lightblue;
   margin: 0 auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding: 1px;
 
 }
 
 .nav__content{
-  width:90% ;
+  width:95% ;
   height:auto ;
   background-color: inherit;
   margin: 1%;
@@ -283,7 +282,7 @@ textarea{
   color: white;
 }
 .invitation{
-  width: 95%;
+  width: 98%;
   height: auto;
   margin:0 auto;
   border: 1px solid silver;
@@ -293,7 +292,7 @@ textarea{
   font-weight: bold;
 }
 .invitation p{
-  margin-left: 50px;
+  margin-left: 12px;
 }
 .invitation__content{
   font-size: 0.8em;
@@ -512,6 +511,8 @@ h2{
 }
 .invitation{
   height: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .invitation p{
   font-size: 0.6em;
@@ -685,4 +686,24 @@ footer{
   .invitation p{
     font-size: 1em;
   }
+}
+
+.pl-3{
+  padding-left: 3px;
+}
+
+.fontBold{
+  font-weight: bold;
+}
+
+.heading-title{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.pt-5{
+  padding-top: 5px;
+}
+
+ul li{
+  list-style-type: disc;
 }
