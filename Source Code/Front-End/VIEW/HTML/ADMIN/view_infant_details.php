@@ -61,7 +61,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Admin | View Infant</h1>
+            <h2 style="padding-left:15px">Admin | View Infant</h2>
         </section>
         <?php
 	$Motherphone=$_GET['infant_id'];
