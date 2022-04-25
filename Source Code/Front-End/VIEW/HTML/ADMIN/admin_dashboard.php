@@ -19,7 +19,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1 style="margin-left:20px">Admin | Dashboard</h1>
+            <h2 style="margin-left:20px">Admin | Dashboard</h2>
         </section>
         <div class="admin__overview">
             <h4></h4>
