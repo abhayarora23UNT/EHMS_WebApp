@@ -94,7 +94,7 @@ if (!isset($_SESSION['Pharmacist_Email']) && !isset($_SESSION['password'])) {
                     <h6>Search by Phone</h6>
                 </div>
                 <div class="search__input">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required value="07">
+                    <input type="text" id="myInput" onkeyup="mySearch()" required value="">
                 </div>
             </div>
         </div>
