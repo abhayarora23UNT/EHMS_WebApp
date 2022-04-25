@@ -126,7 +126,7 @@ if (!isset($_SESSION['Finance_Email']) && !isset($_SESSION['password'])) {
               .Receipt_stamp{
                 width: 100%;
                 height: 120px;
-                margin-left: 40px;
+                text-align:center;
                 background-color:;
               }
 		</style>

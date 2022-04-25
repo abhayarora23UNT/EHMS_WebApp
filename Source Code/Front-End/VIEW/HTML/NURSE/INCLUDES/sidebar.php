@@ -76,7 +76,7 @@ body {
   cursor: pointer;
 }
 .Dashboard i{
-  color:#2BC3B6 ;
+  color:black ;
 }
 .Dashboard a{
   margin-left: 0;
@@ -84,7 +84,7 @@ body {
   color: black;
 }
 .Dashboard a:hover{
-  color:#2BC3B6 ;
+  color:white;
 }
 .Doctors{
   width: auto;
@@ -110,7 +110,7 @@ border-bottom: 1px solid silver;
 .users{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
@@ -152,7 +152,7 @@ border-bottom: 1px solid silver;
 .Enqueries{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
@@ -173,7 +173,7 @@ border-bottom: 1px solid silver;
 .Reports{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
@@ -194,7 +194,7 @@ border-bottom: 1px solid silver;
 .Search__Patients{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   border-bottom: 1px solid silver;
   cursor: pointer;
@@ -352,9 +352,9 @@ input:focus{
 </head>
 <body>
 
-<div id="mySidebar" class="sidenav">
+<div id="mySidebar" class="sidenav sidenav-left-border">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="sidenav__content">
+  <div class="sidenav__content sidenav-pad-left">
     <div class="logo">
   <h3>Saint Paul II</h3>
       </div>

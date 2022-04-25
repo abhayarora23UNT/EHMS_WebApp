@@ -707,3 +707,13 @@ footer{
 ul li{
   list-style-type: disc;
 }
+
+.sidenav-pad-left{
+  padding-left: 8px;
+}
+
+.sidenav-left-border{
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: 6px;
+}

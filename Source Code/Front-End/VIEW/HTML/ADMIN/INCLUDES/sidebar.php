@@ -56,7 +56,7 @@ body {
 .main__navigation{
   width: auto;
   height: 30px;
-  background-color: #90ee90;
+  background-color:black;
   border-top: px solid silver;
   border-bottom: 1px solid silver;
 
@@ -76,7 +76,7 @@ body {
   cursor: pointer;
 }
 .Dashboard i{
-  color:#90ee90 ;
+  color:black ;
 }
 .Dashboard a{
   margin-left: 0;
@@ -84,17 +84,16 @@ body {
   color: black;
 }
 .Dashboard a:hover{
-  color:#90ee90;
+  color:black;
 }
 .Doctors{
   width: auto;
-  height:47px; ;
   margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .Doctors i{
-  color:#90ee90 ;
+  color:black;
 }
 .Doctor__content{
 border-bottom: 1px solid silver;
@@ -105,7 +104,7 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Doctor__content a:hover{
-  color: #90ee90;
+  color:black;
 }
 .Nurses{
   width: auto;
@@ -115,7 +114,7 @@ border-bottom: 1px solid silver;
   color: black;
 }
 .Nurses i{
-  color:#90ee90 ;
+  color:black;
 }
 .Nurse__content{
 border-bottom: 1px solid silver;
@@ -126,17 +125,17 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Nurse__content a:hover{
-  color: #90ee90;
+  color:black;
 }
 .users{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .users i{
-  color:#90ee90 ;
+  color:black;
 }
 .users__content{
 border-bottom: 1px solid silver;
@@ -147,17 +146,17 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .users__content a:hover{
-  color: #90ee90;
+  color:black;
 }
 .Patients{
   width: auto;
   height:auto ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .Patients i{
-  color:#90ee90 ;
+  color:black;
 }
 .Patients__content{
 border-bottom: 1px solid silver;
@@ -168,17 +167,17 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Patients__content a:hover{
-  color:#90ee90 ;
+  color:black;
 }
 .Enqueries{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .Enqueries i{
-  color:#90ee90 ;
+  color:black;
 }
 .Enqueries__content{
 border-bottom: 1px solid silver;
@@ -189,17 +188,17 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Enqueries__content a:hover{
-  color:#90ee90 ;
+  color:black;
 }
 .Reports{
   width: auto;
   height:30px ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .Reports i{
-  color:#90ee90 ;
+  color:black;
 }
 .Reports__content{
 border-bottom: 1px solid silver;
@@ -210,18 +209,18 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Reports__content a:hover{
-  color:#90ee90 ;
+  color:black;
 }
 .Search__Patients{
   width: auto;
   height:auto ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   border-bottom: 1px solid silver;
   cursor: pointer;
 }
 .Search__Patients i{
-  color:#90ee90;
+  color:black;
 }
 .Search__Patients a{
   text-decoration:none;
@@ -229,17 +228,17 @@ border-bottom: 1px solid silver;
   margin-left: 0;
 }
 .Search__Patients a:hover{
-  color:#90ee90 ;
+  color:black;
 }
 .Settings{
   width: auto;
   height:auto ;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.3em;
   color: black;
 }
 .Settings i{
-  color:#90ee90;
+  color:black;
 }
 .Settings__content{
 }
@@ -249,7 +248,7 @@ border-bottom: 1px solid silver;
   color: #0F1EE8;
 }
 .Settings__content a:hover{
-  color:#90ee90 ;
+  color:black;
 }
 #main {
   transition: margin-left .5s;
@@ -265,7 +264,7 @@ border-bottom: 1px solid silver;
 .search__bar{
   width: 50%;
   height: 80px;
-  background-color: #90ee90;
+  background-color:black;
   padding: 0.5px;
   margin-left: 3px;
   border-bottom: 1px solid silver;
@@ -377,9 +376,9 @@ input:focus{
 </head>
 <body>
 
-<div id="mySidebar" class="sidenav">
+<div id="mySidebar" class="sidenav sidenav-left-border">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="sidenav__content">
+  <div class="sidenav__content sidenav-pad-left">
     <div class="logo">
   <h3>EHMS</h3>
       </div>
