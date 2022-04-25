@@ -495,9 +495,7 @@
                 </a>
             </div>
         </div>
-        <div class="search__bar">
-            <input type="text" name="" placeholder="Search..." value="">
-        </div>
+         
     </div>
     <script>
     function closeNav() {
