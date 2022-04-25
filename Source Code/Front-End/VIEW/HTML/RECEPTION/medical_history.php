@@ -56,7 +56,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Patient | Medical History</h1>
+            <h2 style="padding-left:15px">Patient | Medical History</h2>
         </section>
         <?php
 	$Email=$_SESSION['Email'];

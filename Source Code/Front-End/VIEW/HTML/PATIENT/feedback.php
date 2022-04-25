@@ -108,7 +108,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Patient | FeedBack</h1>
+            <h2 style="padding-left:15px">Patient | FeedBack</h2>
         </section>
         <div class="feedback">
             <div class="feedback__top">
