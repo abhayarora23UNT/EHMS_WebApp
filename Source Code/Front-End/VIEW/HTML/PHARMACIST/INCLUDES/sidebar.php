@@ -40,16 +40,16 @@ body {
   height: auto;
   margin-left: 40px;
 }
-.logo{
+ .logo{
   width: auto;
   height: 43px;
-  background-color: #01DAB3;
+  background-image:linear-gradient(to right,lightskyblue,lightblue);
   top: 0;
   padding: 0.1px;
   margin-bottom: -10px;
 }
 .logo h3{
-  color: #ffff;
+  color: black;
   font-size: 1.3em;
   font-weight: bold;
 }
@@ -357,9 +357,7 @@ input:focus{
     <div class="logo">
   <h3>Saint Paul II</h3>
       </div>
-  <div class="main__navigation">
-  <h4>MAIN NAVIGATION</h4>
-</div>
+ 
   <div class="Dashboard">
     <i class="fas fa-home"></i>
   <a href="dashboard.php">Dashboard</a> <br>
