@@ -470,7 +470,7 @@
                     <span class="badge"><?php echo $Not_approved; ?></span>
                 </a>
             </div>
-            <div class="user__session">
+            <div class="user__session" style='margin-left: -4%;'>
                 <h5><?php echo strtolower(ucfirst($_SESSION['Email'])); ?></h5>
             </div>
             <?php
@@ -487,15 +487,16 @@
      ?> 
                 </a>
             </div> -->
-            <div class="admin__title">
-                <h3><a href="logout.php">
-                        <button>LOGOUT</button>
-                    </a></h3>
+            <div class="admin__avatar" style='padding-top:28px'>
+                <span class="Patients__icon" style='margin-left: 10px!important;' ><i class="fa fa-users" aria-hidden="true" style='color:black'></i></span>
+                <a href="logout.php" style='margin-top: -0.5%;margin-left: 10px;'>
+                    <button>LOGOUT</button>
+                </a>
             </div>
         </div>
         <div id="main">
-        <span style="font-size:30px;cursor:pointer;position:absolute;margin: 0;
-  top: 0;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:30px;cursor:pointer;position:absolute;margin-top: 28px;
+  top: 0; margin-left:8px;" onclick="openNav()">&#9776;</span>
     </div>
         <left>
             <div style="padding-top:10px">
