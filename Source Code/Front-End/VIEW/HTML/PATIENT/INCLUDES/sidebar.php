@@ -285,7 +285,7 @@
     .admin__header {
         width: 100%;
         height: 80px;
-        background-color: inherit;
+        background-color: lightblue;
         border-bottom: 1px solid silver;
         border-radius: 5px;
         display: ;
@@ -317,7 +317,7 @@
     .admin__header__content {
         width: 55%;
         height: auto;
-        background-color: #00B3AD;
+        background-color: lightblue;
         float: right;
         display: flex;
     }
@@ -455,10 +455,6 @@
             </div>
         </div>
     </div>
-    <div id="main">
-        <span style="font-size:30px;cursor:pointer;position:absolute;margin: 0;
-  top: 0;" onclick="openNav()">&#9776;</span>
-    </div>
     <div class="admin__header">
         <div class="admin__header__content">
             <div class="admin__title">
@@ -496,7 +492,17 @@
                 </a>
             </div>
         </div>
-         
+        <div id="main">
+        <span style="font-size:30px;cursor:pointer;position:absolute;margin: 0;
+  top: 0;" onclick="openNav()">&#9776;</span>
+    </div>
+        <left>
+            <div style="padding-top:10px">
+                <a href="#" style='margin-left:3%;margin-top: 28px;'><img src="hlogo.jpg" height="35" width="80"
+                        alt="Image resize"></a></center>
+                <span class="heading-title"> Electronic Hospital Management System </span>
+                <title>Admin | Dashboard</title>
+            </div>   
     </div>
     <script>
     function closeNav() {

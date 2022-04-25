@@ -11,9 +11,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 <html lang="en">
 
 <head>
-    <left><a href="#"><img src="hlogo.jpg" height="55" width="100" alt="Image resize"></a></center><br>
-        ELECTRONIC HOSPITAL MANAGEMENT SYSTEM
-        <title>Patient | Dashboard</title>
+    <left>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../css/style.css">

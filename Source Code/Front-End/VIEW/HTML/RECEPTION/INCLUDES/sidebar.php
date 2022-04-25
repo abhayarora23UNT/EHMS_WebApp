@@ -286,7 +286,7 @@
     .admin__header {
         width: 100%;
         height: 80px;
-        background-color: inherit;
+        background-color: lightblue;
         border-bottom: 1px solid silver;
         border-radius: 5px;
         display: ;
@@ -318,7 +318,7 @@
     .admin__header__content {
         width: 55%;
         height: auto;
-        background-color: #00B3AD;
+        background-color: lightblue;
         float: right;
         display: flex;
     }
