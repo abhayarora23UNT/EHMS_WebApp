@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="../../css/main.css">
-       <link rel="stylesheet" href="../../fontawesome/css/all.css">
+          <link rel="stylesheet" href="../../css/main.css">
+       <link rel="stylesheet" href="../../css/style.css">
        <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <title>nurse login</title>
   </head>
@@ -15,7 +16,7 @@
       </div>
 
       <form class="" action="../../../CONTROL/NURSE/nurse_login_contr.php" method="post">
-        <fieldset>
+       <fieldset style="width:40%;margin-bottom:20px">
 							<legend>
 								Sign into your account
 							</legend>

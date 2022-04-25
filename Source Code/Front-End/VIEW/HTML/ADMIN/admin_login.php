@@ -34,7 +34,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="../../css/main.css">
-       <link rel="stylesheet" href="../../fontawesome/css/all.css">
+          <link rel="stylesheet" href="../../css/main.css">
+       <link rel="stylesheet" href="../../css/style.css">
        <link rel="stylesheet" href="../../fontawesome/css/all.css">
        <style media="screen">
        </style>
@@ -47,7 +48,7 @@
       </div>
 
       <form action="../../../CONTROL/ADMIN/admin_login.contr.php" method="post" class="form">
-        <fieldset>
+       <fieldset style="width:40%;margin-bottom:20px">
 							<legend>
 								Sign into your account
 							</legend>
