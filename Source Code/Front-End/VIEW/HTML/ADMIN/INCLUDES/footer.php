@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
-  <footer>
-     <div class="footer__content">
-       <ul class="footer__list">
-         <li class="home"><a  href="index.php">@2022 Electronic Hospital Management System</a></li>
-        
-       </ul>
+</head>
 
-     </div>
+<body>
+    <footer>
+        <div class="footer__content">
+            <ul class="footer__list">
+                <li class="home"><a href="index.php">@2022 Electronic Hospital Management System</a></li>
 
-   </footer>
+            </ul>
 
-  </body>
+        </div>
+
+    </footer>
+
+</body>
+
 </html>

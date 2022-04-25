@@ -15,12 +15,13 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Admin  | View Contact us Msgs</title>
+
+<head>
+    <title>Admin | View Contact us Msgs</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-		<link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../../fontawesome/css/fa-brands.css">
@@ -32,39 +33,43 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <link rel="stylesheet" href="../../fontawesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="../../fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="../../fontawesome/css/fontawesome.min.css">
-		<style>
-    .view_patient_table{
-      width: 100%;
-      height: 300px;
-      background-color: inherit;
-			margin-top: 30px;
-      padding: 0.5px;
+    <style>
+    .view_patient_table {
+        width: 100%;
+        height: 300px;
+        background-color: inherit;
+        margin-top: 30px;
+        padding: 0.5px;
     }
-    h5{
-      margin-left: 50px;
+
+    h5 {
+        margin-left: 50px;
     }
-    table{
-      width: 90%;
-      height: 100px;
-      margin: 0 auto;
-      border-color: silver;
-      border-collapse: collapse;
-      background-color: #ffffff;
-      font-family: lucida, sans-serif;
+
+    table {
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+        border-color: silver;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        font-family: lucida, sans-serif;
     }
-    td{
-      padding: 10px;
+
+    td {
+        padding: 10px;
     }
-		</style>
- </head>
-	<body>
-<?php include('../ADMIN/INCLUDES/sidebar.php');?>
-<?php include('../ADMIN/INCLUDES/footer.php');?>
-<div id="section__content" class="section__content">
-	<section id="admin__dashboard" class="admin__dashboard">
-		<h1>Admin | View Contact us Msgs</h1>
-	</section>
-	<?php
+    </style>
+</head>
+
+<body>
+    <?php include('../ADMIN/INCLUDES/sidebar.php');?>
+    <?php include('../ADMIN/INCLUDES/footer.php');?>
+    <div id="section__content" class="section__content">
+        <section id="admin__dashboard" class="admin__dashboard">
+            <h1>Admin | View Contact us Msgs</h1>
+        </section>
+        <?php
 	$Msg_id=$_GET['msgid'];
 	$sql="SELECT * FROM table_contactus WHERE Msg_id='$Msg_id'";
 	$query=mysqli_query($conn,$sql);
@@ -75,27 +80,28 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 	$Phone=$data['Phone'];
   $Message=$data['Message'];
 ?>
-<table>
-  <tr>
-    <td><b>Name:</b>  <?php echo $Name; ?></td>
-  </tr>
-  <tr>
-    <td><b>Email:</b>  <?php echo $Email; ?></td>
-  </tr>
-  <tr>
-    <td><b>Phone:</b>  <?php echo $Phone; ?></td>
-  </tr>
-  <tr>
-    <td><b>Send Date:</b>  <?php echo $date; ?></td>
-  </tr>
-  <tr>
-    <td><b>Message:</b>  <?php echo $Message; ?></td>
-  </tr>
-  <tr>
-    <td><a href="patient_queries.php?">Go Back to all Messages</a></td>
-  </tr>
-</table>
-<?php } ?>
-  </div>
-	</body>
+        <table>
+            <tr>
+                <td><b>Name:</b> <?php echo $Name; ?></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b> <?php echo $Email; ?></td>
+            </tr>
+            <tr>
+                <td><b>Phone:</b> <?php echo $Phone; ?></td>
+            </tr>
+            <tr>
+                <td><b>Send Date:</b> <?php echo $date; ?></td>
+            </tr>
+            <tr>
+                <td><b>Message:</b> <?php echo $Message; ?></td>
+            </tr>
+            <tr>
+                <td><a href="patient_queries.php?">Go Back to all Messages</a></td>
+            </tr>
+        </table>
+        <?php } ?>
+    </div>
+</body>
+
 </html>

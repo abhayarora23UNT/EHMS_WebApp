@@ -1,10 +1,12 @@
 <html>
-    <head>
-        <title>
-            USER LOGIN 
-        </title>
+
+<head>
+    <title>
+        USER LOGIN
+    </title>
 </head>
 <link rel="stylesheet" href="MODULE.css">
+
 <body>
     <a href="admin_login.php">
         <button>ADMIN LOGIN</button>
@@ -16,4 +18,5 @@
         <button>DOCTOR LOGIN</button>
     </a>
 </body>
+
 </html>

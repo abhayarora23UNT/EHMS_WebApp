@@ -5,18 +5,18 @@ $Doctor=$_GET["Doctor"];
 if(!empty($Doctor)){
  $sql="SELECT Name FROM table_doctor WHERE Specialization='$Doctor'";
  ?>
- <style media="screen">
-   .select_doc:focus option:first-of-type{
-     display: none;
-   }
- </style>
- <option value="" id="select_doc">Select Doctor</option>
- <?php
+<style media="screen">
+.select_doc:focus option:first-of-type {
+    display: none;
+}
+</style>
+<option value="" id="select_doc">Select Doctor</option>
+<?php
  $query=mysqli_query($conn,$sql);
  while($row=mysqli_fetch_array($query)){
 ?>
-  <option value="<?php echo $row['Name']; ?>"><?php echo $row['Name']; ?></option>
-    <?php
+<option value="<?php echo $row['Name']; ?>"><?php echo $row['Name']; ?></option>
+<?php
   }
   echo "Select Doctor";
 }
