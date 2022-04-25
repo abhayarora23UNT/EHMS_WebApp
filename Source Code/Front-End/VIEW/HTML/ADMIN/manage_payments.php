@@ -60,7 +60,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 			color:dodgerblue;
 		}
 		tr:hover{
-			background-color: #22E791;
+			background-color: #2dace3;
 		}
 		</style>
  </head>

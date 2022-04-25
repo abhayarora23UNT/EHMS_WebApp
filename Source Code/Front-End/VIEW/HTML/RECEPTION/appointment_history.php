@@ -40,7 +40,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 			color:dodgerblue;
 		}
 		tr:hover{
-			background-color: #22E791;
+			background-color: #2dace3;
 		}
 		#Action{
 			color: ;
