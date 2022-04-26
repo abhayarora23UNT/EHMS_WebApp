@@ -476,7 +476,7 @@
             </div>
             <div class="Nurse__content">
                 <a href="add_cashier.php">Add Cashier</a><br>
-                <a href="manage_cashier.php">Manage Cashier</a><br>
+                <a href="manage_cashier.php">Manage Accounts</a><br>
                 <a href="manage_finance.php">Manage Accountant</a><br>
             </div>
             <div class="Doctors">

@@ -54,7 +54,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h2 style="padding-left:15px">Admin | Manage Cashier</h2>
+            <h2 style="padding-left:15px">Admin | Manage Accounts</h2>
         </section>
         <div class="view__patients">
             <div class="view__patients__content">
