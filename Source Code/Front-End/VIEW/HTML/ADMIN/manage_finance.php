@@ -22,7 +22,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 <html lang="en">
 
 <head>
-    <title>Admin | Manage Finance</title>
+    <title>Admin | Manage Accountant</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
@@ -69,7 +69,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h2 style="padding-left:15px">Admin | Manage Finance</h2>
+            <h2 style="padding-left:15px">Admin | Manage Accountant</h2>
         </section>
         <p style="color:red;font-size:1.2em;">
             <?php

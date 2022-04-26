@@ -472,12 +472,12 @@
             </div>
             <div class="Nurses">
                 <i class="fas fa-user-md" style='color:black'></i>
-                Finance<br>
+                Accountant<br>
             </div>
             <div class="Nurse__content">
                 <a href="add_cashier.php">Add Cashier</a><br>
                 <a href="manage_cashier.php">Manage Cashier</a><br>
-                <a href="manage_finance.php">Manage Finance</a><br>
+                <a href="manage_finance.php">Manage Accountant</a><br>
             </div>
             <div class="Doctors">
                 <i class="fas fa-stethoscope" style='color:black'></i>
@@ -504,6 +504,23 @@
                 <a href="manage_patients.php">Manage Patients</a><br>
                 <a href="patients_appointment_history.php">Appointment History</a><br>
             </div>
+            <div class="Doctors">
+    <i class="fas fa-stethoscope"></i>
+    Drivers<br>
+    </div>
+    <div class="Doctor__content">
+  <a href="#">Add Drivers</a><br>
+  <a href="#">Manage Drivers</a><br>
+  </div>
+  <div class="Doctors">
+    <i class="fas fa-stethoscope"></i>
+    Ambulances<br>
+    </div>
+    <div class="Doctor__content">
+  <a href="#">Add Ambulances</a><br>
+<a href="#">Manage Ambulances</a><br>
+  </div>
+
             <div class="Enqueries">
                 <i class="fas fa-question-circle"></i>
                 Enqueries <br>
