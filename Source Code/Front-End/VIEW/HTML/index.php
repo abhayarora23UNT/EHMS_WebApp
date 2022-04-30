@@ -50,7 +50,7 @@
                     </p>
                 </div> -->
             </div>
-            <div class="center" style="margin-top:80px;">
+            <div class="dashboard-tile" style="margin-top:80px;">
                 <marquee behavior="scroll" direction="right">
                     <img src="../images/hospital1.jpg" alt="hospital img" width="350" height="350">
                     <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">

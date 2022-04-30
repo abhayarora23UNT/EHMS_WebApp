@@ -773,3 +773,8 @@ tr, td {
   font-family: serif;
   font-weight: bold;
 }
+
+.dashboard-tile img{
+  width: 45%;
+  height: 400px;
+}
