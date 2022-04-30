@@ -89,7 +89,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 			}
 			 ?>
                         </p>
-                        <div class="login__btn login__btn--Patients">
+                        <div class="submit__btn">
                             <button type="submit" name="submit">
                                 Save <i class="fa fa-arrow-circle-right"></i>
                             </button>
