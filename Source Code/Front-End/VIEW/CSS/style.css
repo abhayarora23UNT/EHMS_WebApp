@@ -53,7 +53,7 @@
   text-align: justify;
 }
 .Address_details{
-font-size: 1.3em;
+font-size: 1.2em;
 margin-top: 20px;
 text-align: justify;
 background-color: inherit;
@@ -342,7 +342,7 @@ footer{
   height: auto;
   color: #0000;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-top: 3px;
 }
 .contactus{
@@ -350,7 +350,7 @@ footer{
   height: auto;
   color: #33A6DC;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-top: 3px;
 }
 .home:hover{
@@ -427,7 +427,7 @@ textarea{
   height:210px;
 }
 h3{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 h2{
   font-size: 1em;
@@ -698,7 +698,7 @@ footer{
 
 .heading-title{
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .pt-5{
   padding-top: 5px;
@@ -735,4 +735,31 @@ tr, td {
 
 .del-icon{
   color: red !important;
+}
+.first__row .fas{
+  display: none;
+}
+
+.second__row .fas{
+  display: none;
+}
+
+.first__row h6{
+  text-transform: uppercase;
+}
+
+.second__row h6{
+  text-transform: uppercase;
+}
+
+.tile{
+  background-color: white;
+  margin-left: -17px;
+  height: 35px;
+  text-align: right;
+  font-size: 0.87em;
+  padding-right: 8px;
+  padding-top: 14px;
+  font-weight: 600;
+  text-decoration: underline;
 }

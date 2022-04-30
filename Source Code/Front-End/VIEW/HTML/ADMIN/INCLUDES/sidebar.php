@@ -56,7 +56,7 @@
 
     .logo h3 {
         color: black;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 
@@ -81,7 +81,7 @@
         height: 27px;
         margin-top: 20px;
         border-bottom: 1px solid silver;
-        font-size: 1.3em;
+        font-size: 1.2em;
         cursor: pointer;
     }
 
@@ -102,7 +102,7 @@
     .Doctors {
         width: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -128,7 +128,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -154,7 +154,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -180,7 +180,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -206,7 +206,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -232,7 +232,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -258,7 +258,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         border-bottom: 1px solid silver;
         cursor: pointer;
     }
@@ -281,7 +281,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 

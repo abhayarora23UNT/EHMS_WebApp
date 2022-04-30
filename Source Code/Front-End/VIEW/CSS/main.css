@@ -333,7 +333,7 @@ footer{
   height: auto;
   color: #33A6DC;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-top: 3px;
 }
 .contactus{
@@ -342,7 +342,7 @@ footer{
   color: #33A6DC;
   border-radius: 1px solid #33A6DC;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-top: 3px;
 }
 .home:hover{
@@ -379,11 +379,11 @@ margin-top: 28px;
 }
 .first__row{
   width: 90%;
-  height: 150px;
+  height: 125px;
   background-color: inherit;
   margin: 0 auto;
   display: flex;
-
+  text-align:center;
 }
 .Doctors__overview{
   width: 30%;
@@ -426,7 +426,7 @@ margin-top: 28px;
   border-left: 3px solid #6BD4E0;
 }
 .Nurses__overview h6{
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:#ffffff;
 }
 .Nurses__overview__content{
@@ -435,7 +435,7 @@ margin-top: 28px;
   margin-top: 30px;
 }
 .total__nurses{
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:black;
 }
 .nurse__icon{
@@ -457,7 +457,7 @@ margin-top: 28px;
   border-left: 3px solid #6BD4E0;
 }
 .Patients__overview h6{
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:#ffffff;
 }
 .Patients__overview__content{
@@ -466,7 +466,7 @@ margin-top: 28px;
   margin-top: 30px;
 }
 .total__patients{
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:black;
 }
 .Patients__icon{
@@ -478,11 +478,12 @@ margin-top: 28px;
 }
 .second__row{
   width: 90%;
-  height: 150px;
+  height: 125px;
   background-color: inherit;
   margin: 0 auto;
   margin-top: 90px;
   display: flex;
+  text-align: center;
 
 }
 .birth__report{
@@ -501,7 +502,7 @@ margin-top: 28px;
 }
 .total__births{
   color:black;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .birth__icon{
   color: #9EB2B2;
@@ -512,7 +513,7 @@ margin-top: 28px;
 }
 .birth__report h6{
   color:#ffffff;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .death__report{
   width: 30%;
@@ -563,7 +564,7 @@ margin-top: 28px;
 }
 .current__date{
   color:#ffffff;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .date__icon{
   color: #9EB2B2;
@@ -703,37 +704,37 @@ option{
   padding-left: 100px;
 }
 .id__manage h6{
-  font-size: 1.3em
+  font-size: 1.2em
 }
 .name__manage{
   padding-left: 120px;
 }
 .name__manage h6{
-  font-size: 1.3em
+  font-size: 1.2em
 }
 .email__manage{
   padding-left: 120px;
 }
 .email__manage h6{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .phonenumber__manage{
   padding-left: 100px;
 }
 .phonenumber__manage h6{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .specialization__manage{
   padding-left: 130px;
 }
 .specialization__manage h6{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .action{
   padding-left: 70px;
 }
 .action h6{
-font-size: 1.3em;
+font-size: 1.2em;
 }
 .id__appointment{
   padding-left: 80px;
@@ -791,7 +792,7 @@ font-size: 1.3em;
 }
 .search__title h6{
   color: #858585;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .search__title{
   padding-left:15px

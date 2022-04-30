@@ -43,7 +43,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
             <h4></h4>
             <div class="first__row first__row">
                 <div class="Doctors__overview Doctors__overview--Appointment">
-                    <a href="appointment_history.php">
+                    <a >
                         <div class="Doctors__overview__content">
                             <div class="total__docs">
                                 <?php
@@ -57,6 +57,11 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-stethoscope" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>My appointments</h6>
+                            <div class='tile'>
+                                <a href="appointment_history.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -71,6 +76,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
                             <i class="fas fa-clock" style='color:black'></i>
                         </div>
                         <h6 style='color:black'>Date</h6>
+                        
                     </div>
                 </div>
             </div>

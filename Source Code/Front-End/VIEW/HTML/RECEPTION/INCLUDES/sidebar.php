@@ -56,7 +56,7 @@
 
     .logo h3 {
         color: black;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 
@@ -81,7 +81,7 @@
         height: 27px;
         margin-top: 20px;
         border-bottom: 1px solid silver;
-        font-size: 1.3em;
+        font-size: 1.2em;
         cursor: pointer;
     }
 
@@ -103,7 +103,7 @@
         width: auto;
         height: 25px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
 
     }
@@ -130,7 +130,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -156,7 +156,7 @@
         width: auto;
         height: 37px;
         margin-top: 20px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -182,7 +182,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -208,7 +208,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -234,7 +234,7 @@
         width: auto;
         height: 50px;
         margin-top: 20px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         border-bottom: 1px solid silver;
         cursor: pointer;
     }
@@ -257,7 +257,7 @@
         width: auto;
         height: 24px;
         margin-top: 20px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
