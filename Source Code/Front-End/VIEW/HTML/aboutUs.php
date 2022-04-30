@@ -129,10 +129,10 @@
             </div>
         </div>
         <div style="margin-top:110px; margin-left:50px">
-            <img src="../images/girl.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
-            <img src="../images/doctorTech.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
-            <img src="../images/docOper.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
-            <img src="../images/telehealth.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+        <img src="../images/hospital1.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
             <!-- <img src="../images/nurse.jpg" alt="hospital img" width="350" height="350"> -->
         </div>
 
