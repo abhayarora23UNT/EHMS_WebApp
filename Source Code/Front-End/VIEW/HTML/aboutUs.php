@@ -128,14 +128,12 @@
                 For more information on where parking is available, view or print a copy of the adjacent campus map.
             </div>
         </div>
-        <div style="margin-top:15px">
-            <marquee behavior="scroll" direction="right">
-                <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic2.jpg" alt="hospital img" width="350" height="350">
-            </marquee>
+        <div style="margin-top:110px; margin-left:50px">
+                <img src="../images/girl.jpg" alt="hospital img" width="350" height="350">
+                <img src="../images/doctorTech.jpg" alt="hospital img" width="350" height="350">
+                <img src="../images/docOper.jpg" alt="hospital img" width="350" height="350">
+                <img src="../images/telehealth.jpg" alt="hospital img" width="350" height="350">
+                <img src="../images/nurse.jpg" alt="hospital img" width="350" height="350">
         </div>
 
 
