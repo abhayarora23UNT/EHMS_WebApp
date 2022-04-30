@@ -435,10 +435,7 @@
             </div>
 
             
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="logout.php">Log 0ut</a> <br>
-            </div>
+           
         </div>
     </div>
     <div id="main">

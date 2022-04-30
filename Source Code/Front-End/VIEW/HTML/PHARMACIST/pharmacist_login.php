@@ -34,9 +34,7 @@
                         <i class="fa fa-eye" id="pass__toggle"></i>
                     </div>
                     <input type="password" id="password" name="password" placeholder="Password" required>
-                    <div class="forgotpassbtn">
-                        <a href="forgotpassword.php">Forgot Password?</a>
-                    </div>
+                   
                     <p style="color:red;font-size:0.8em;">
                         <?php
                     if (isset($_GET['error'])) {

@@ -423,34 +423,29 @@
             </div>
 
             <div class="Dashboard">
-                <i class="fas fa-home"></i>
-                <a href="dashboard.php">Dashboard</a> <br>
+                <a href="dashboard.php">Dashboard</a> <i class="fas fa-home"></i>
             </div>
             <div class="Patients">
-                <i class="fas fa-history"></i>
-                Appointment History <br>
+                Appointment History <i class="fas fa-history"></i>
             </div>
             <div class="Patients__content">
                 <a href="appointment_history.php">Check Appointments</a><br>
             </div>
-            <div class="Search__Patients">
-                <i class="fas fa-search" style='color:black'></i>
-                <a href="book_appointment.php">Book Appointment</a> <br>
+            <div class="Patients">
+                Book Appointment <i class="fas fa-search" style='color:black'></i>
+            </div>
+         
+            <div class="Patients__content">
+                <a href="book_appointment.php">Book your Appointments</a><br>
             </div>
 
             <div class="Settings">
-                <i class="fas fa-cog"></i>
-                FeedBack <br>
+                FeedBack  <i class="fas fa-cog"></i>
             </div>
             <div class="Settings__content">
                 <a href="feedback.php">Send FeedBack</a><br>
             </div>
 
-            
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="logout.php">Log 0ut</a> <br>
-            </div>
         </div>
     </div>
     <div class="admin__header">

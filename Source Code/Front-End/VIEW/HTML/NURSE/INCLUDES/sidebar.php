@@ -423,21 +423,15 @@
             </div>
 
             <div class="Dashboard">
-                <i class="fas fa-home"></i>
-                <a href="dashboard.php">Dashboard</a> <br>
+                <a href="dashboard.php">Dashboard</a>  <i class="fas fa-home"></i>
             </div>
             <div class="Patients">
-                <i class="fas fa-users"></i>
-                Admit Patients <br>
+                Admit Patients <i class="fas fa-users"></i>
             </div>
             <div class="Patients__content">
                 <a href="manage_patients.php">Manage Patients</a><br>
             </div>
             
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="../NURSE/logout.php">Log 0ut</a> <br>
-            </div>
         </div>
     </div>
     <div id="main">
