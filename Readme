@@ -20,7 +20,15 @@ Folder Structure
 
 FDB
 Planning
+      -> ER Diagram
+      -> Project Report
+      -> Requirement Doc
 Source Code
+      -> Database
+          SQL Scripts
+      -> Front End
+           Controller
+           View
 Tables
 ReadMe
 
