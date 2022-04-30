@@ -99,7 +99,7 @@
 
             </div>
         </div>
-        <div style='font-size:1.2em;margin-left:15px; font-weight:bold'>
+        <div style='font-size:1.2em;margin-left:15px; margin-top:10px;font-weight:bold'>
             About Electronic Hospital Management System <br /><br />
         </div>
         <span>
@@ -129,11 +129,11 @@
             </div>
         </div>
         <div style="margin-top:110px; margin-left:50px">
-                <img src="../images/girl.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doctorTech.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/docOper.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/telehealth.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/nurse.jpg" alt="hospital img" width="350" height="350">
+            <img src="../images/girl.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+            <img src="../images/doctorTech.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+            <img src="../images/docOper.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+            <img src="../images/telehealth.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+            <!-- <img src="../images/nurse.jpg" alt="hospital img" width="350" height="350"> -->
         </div>
 
 

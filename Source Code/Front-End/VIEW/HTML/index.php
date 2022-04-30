@@ -42,23 +42,23 @@
 
                 </div>
             </div>
-            <div class="invitation">
+            <div class="dashboard-title">
                 <p class="pt-5">Welcome To Electronic Hospital Management System</p>
-                <div class="invitation__content">
+                <!-- <div class="invitation__content">
                     <p> Where patients are allowed to schedule appointments with doctors in specifically available slots
                         for routine checkups or treatment opinions. Only permitted users can be part of this system.
                     </p>
-                </div>
+                </div> -->
             </div>
-            <div class="center">
-            <marquee behavior="scroll" direction="right">
-            <img src="../images/hospital1.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic2.jpg" alt="hospital img" width="350" height="350">
-            </marquee>
+            <div class="center" style="margin-top:80px;">
+                <marquee behavior="scroll" direction="right">
+                    <img src="../images/hospital1.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/pic2.jpg" alt="hospital img" width="350" height="350">
+                </marquee>
             </div>
             <footer>
                 <div class="footer__content">
