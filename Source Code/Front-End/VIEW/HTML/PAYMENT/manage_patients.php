@@ -89,12 +89,8 @@ if (!isset($_SESSION['Finance_Email']) && !isset($_SESSION['password'])) {
 				}
 				 ?>
                 </p>
-                <div class="search__title">
-                    <h6>Search by Phone</h6>
-                </div>
-                <div class="search__input">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required value="">
-                </div>
+               
+                
             </div>
         </div>
         <table class="table" id="myTable">

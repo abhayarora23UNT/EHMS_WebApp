@@ -56,16 +56,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
         <section id="admin__dashboard" class="admin__dashboard">
             <h2 style="padding-left:15px">Admin | Manage Admission</h2>
         </section>
-        <div class="view__patients">
-            <div class="view__patients__content">
-                <div class="search__title">
-                    <h6>Search by Phone</h6>
-                </div>
-                <div class="search__input">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required value="">
-                </div>
-            </div>
-        </div>
+        
         <table class="table" id="myTable">
             <thead>
                 <tr>

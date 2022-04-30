@@ -442,10 +442,7 @@
                 <a href="appointment_history.php">Check Appointments</a><br>
             </div>
 
-            <div class="Settings">
-                <i class="fas fa-cog"></i>
-                Settings <br>
-            </div>
+            
             <div class="Settings__content">
                 <a href="change_password.php">Change Password</a><br>
                 <a href="../DOCTOR/logout.php">Log out</a> <br>

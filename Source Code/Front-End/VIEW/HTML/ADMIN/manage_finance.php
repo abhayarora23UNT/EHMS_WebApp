@@ -85,12 +85,8 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 		}
 		 ?>
         </p>
-        <div class="search__title" style="padding-left:15px">
-            <h6>Search by Phone</h6>
-        </div>
-        <div class="search__input" style="padding-left:15px">
-            <input type="text" id="myInput" onkeyup="mySearch()" required value="">
-        </div>
+        
+        
         <table class="table" id="myTable" style="margin-left:18px;margin-top:10px">
             <thead>
                 <tr>
@@ -123,7 +119,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                             tooltip="Edit"><i class="fa fa-pencil"></i></a>
                         <a href="manage_finance.php?Email=<?php echo $row['Email']?>&del=delete"
                             onClick="return confirm('Are you sure you want to delete Cashier <?php echo $row['Name']; ?>')">
-                            <i class="fa fa-times fa fa-white"></i></a>
+                            <i class="fa fa-times del-icon  fa fa-white"></i></a>
                     </td>
                 </tr>
                 <?php $count=$count+1;

@@ -433,10 +433,7 @@
             <div class="Patients__content">
                 <a href="manage_patients.php">Patient's Report</a><br>
             </div>
-            <div class="Settings">
-                <i class="fas fa-cog"></i>
-                Settings <br>
-            </div>
+            
             <div class="Settings__content">
                 <a href="change_password.php">Change Password</a><br>
                 <a href="../LAB_TECHNICIAN/logout.php">Log 0ut</a> <br>

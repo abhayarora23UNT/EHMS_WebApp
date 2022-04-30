@@ -56,31 +56,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
         <section id="admin__dashboard" class="admin__dashboard">
             <h2 style="padding-left:15px">Admin | Manage Accounts</h2>
         </section>
-        <div class="view__patients">
-            <div class="view__patients__content">
-                <p style="color:red;font-size:1.2em;">
-                    <?php
-				if (isset($_GET['error'])) {
-					echo $_GET['error'];
-				}
-				 ?>
-                </p>
-                <p style="color:green;font-size:1.2em;">
-                    <?php
-				if (isset($_GET['success'])) {
-					echo $_GET['success'];
-				}
-				 ?>
-                </p>
-                <div class="search__title" style="padding-left:15px">
-                    <h6>Search by Email</h6>
-                </div>
-                <div class="search__input" style="padding-left:15px">
-                    <input type="text" id="myInput" placeholder="eg. abc@gmail.com" onkeyup="mySearch()" required
-                        value="">
-                </div>
-            </div>
-        </div>
+        
         <table class="table" id="myTable" style="margin-left:18px;margin-top:10px">
             <thead>
                 <tr>

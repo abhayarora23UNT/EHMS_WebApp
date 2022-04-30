@@ -504,22 +504,7 @@
                 <a href="manage_patients.php">Manage Patients</a><br>
                 <a href="patients_appointment_history.php">Appointment History</a><br>
             </div>
-            <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
-    Drivers<br>
-    </div>
-    <div class="Doctor__content">
-  <a href="#">Add Drivers</a><br>
-  <a href="#">Manage Drivers</a><br>
-  </div>
-  <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
-    Ambulances<br>
-    </div>
-    <div class="Doctor__content">
-  <a href="#">Add Ambulances</a><br>
-<a href="#">Manage Ambulances</a><br>
-  </div>
+         
 
             <div class="Enqueries">
                 <i class="fas fa-question-circle"></i>
@@ -529,14 +514,8 @@
                 <a href="feedback.php">FeedBack</a> <br>
                 <a href="patient_queries.php">All Queries</a> <br>
             </div>
-            <div class="Settings">
-                <i class="fas fa-cog"></i>
-                Settings <br>
-            </div>
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="logout.php">Log out</a> <br>
-            </div>
+            
+            
         </div>
     </div>
 

@@ -72,16 +72,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
         <section id="admin__dashboard" class="admin__dashboard">
             <h2 style="padding-left:20px">Doctor | Appointment History</h2>
         </section>
-        <div class="view__patients" style="padding:12px">
-            <div class="view__patients__content">
-                <div class="search__title">
-                    <h6>Search by Patient Email:</h6>
-                </div>
-                <div class="search__input">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required>
-                </div>
-            </div>
-        </div>
+        
         <p style="color:red;font-size:1.2em;">
             <?php
 		if (isset($_GET['error'])) {

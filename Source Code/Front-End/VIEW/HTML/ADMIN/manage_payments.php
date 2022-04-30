@@ -92,15 +92,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 				}
 				 ?>
                 </p>
-                <div class="search__title">
-                    <h6>Search by Email</h6>
-                </div>
-                <div class="search__input">
-                    <input type="text" id="date_search" onkeyup="date_search()" required value=""
-                        placeholder="Select date...">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required value=""
-                        placeholder="eg. abc@gmail.com">
-                </div>
+                
             </div>
         </div>
         <table class="table" id="myTable">

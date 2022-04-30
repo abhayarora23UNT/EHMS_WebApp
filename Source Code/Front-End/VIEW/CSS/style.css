@@ -718,14 +718,21 @@ ul li{
   border-left-width: 6px;
 }
 
+th{
+  background-color: #bda9f1;
+}
 th, td {
   border:1px solid black;
-  padding:3px !important
-
+  padding:3px !important;
+  
 }
 
 tr, td {
   border:1px solid black;
   padding:3px !important
 
+}
+
+.del-icon{
+  color: red !important;
 }

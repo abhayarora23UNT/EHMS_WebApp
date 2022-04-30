@@ -72,12 +72,8 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 				}
 				 ?>
                 </p>
-                <div class="search__title">
-                    <h6>Search by Phone</h6>
-                </div>
-                <div class="search__input">
-                    <input type="text" id="myInput" onkeyup="mySearch()" required value="">
-                </div>
+               
+                
             </div>
         </div>
         <table class="table" id="myTable" style="margin-top:50px;margin-left:15px">
