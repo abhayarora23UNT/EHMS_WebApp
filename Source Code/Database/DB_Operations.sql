@@ -278,7 +278,7 @@ CREATE TABLE `table_appointment_history` (
   `Appointment_id` int(22) UNSIGNED NOT NULL,
   `Doctor_Name` varchar(30) NOT NULL,
   `Patient_Name` varchar(30) NOT NULL,
-  `SpeciMohanzation` varchar(255) NOT NULL,
+  `Specialization` varchar(255) NOT NULL,
   `Appointment_creation_date` datetime DEFAULT CURRENT_TIMESTAMP,
   `Appointment_date` varchar(255) NOT NULL,
   `Appointment_time` varchar(255) NOT NULL,
@@ -289,7 +289,7 @@ CREATE TABLE `table_appointment_history` (
 -- Dumping data for table `table_appointment_history`
 --
 
-INSERT INTO `table_appointment_history` (`Appointment_id`, `Doctor_Name`, `Patient_Name`, `SpeciMohanzation`, `Appointment_creation_date`, `Appointment_date`, `Appointment_time`, `Action`) VALUES
+INSERT INTO `table_appointment_history` (`Appointment_id`, `Doctor_Name`, `Patient_Name`, `Specialization`, `Appointment_creation_date`, `Appointment_date`, `Appointment_time`, `Action`) VALUES
 (1, 'Jaisrinadh', 'jaisrinadh@gmail.com', 'Clinical Officer', '2022-04-21 10:53:02', '2022-04-22', '10:55', 'Approved'),
 (2, 'Jaisrinadh', 'jaisrinadh@gmail.com', 'Dermatologist', '2022-03-27 15:10:08', '2022-03-28', '15:12', 'Approved');
 
@@ -355,7 +355,7 @@ CREATE TABLE `table_doctor` (
   `Avatar` varchar(255) NOT NULL,
   `Name` varchar(30) NOT NULL,
   `Email` varchar(255) NOT NULL,
-  `SpeciMohanzation` varchar(255) NOT NULL,
+  `Specialization` varchar(255) NOT NULL,
   `Phone` varchar(255) NOT NULL,
   `Entry_date` datetime DEFAULT CURRENT_TIMESTAMP,
   `Password` varchar(255) NOT NULL
@@ -365,7 +365,7 @@ CREATE TABLE `table_doctor` (
 -- Dumping data for table `table_doctor`
 --
 
-INSERT INTO `table_doctor` (`user_id`, `Avatar`, `Name`, `Email`, `SpeciMohanzation`, `Phone`, `Entry_date`, `Password`) VALUES
+INSERT INTO `table_doctor` (`user_id`, `Avatar`, `Name`, `Email`, `Specialization`, `Phone`, `Entry_date`, `Password`) VALUES
 (7, '../../../../images/pic14.jpg', 'Jaisrinadh', 'jaisrinadh@gmail.com', 'Dermatologist', '0728262277', '2022-04-19 10:20:07', 'e10adc3949ba59abbe56e057f20f883e');
 
 -- --------------------------------------------------------

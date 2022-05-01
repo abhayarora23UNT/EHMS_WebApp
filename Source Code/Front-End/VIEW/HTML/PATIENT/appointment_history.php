@@ -58,9 +58,9 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>My | Appointment History</h1>
+            <h2 style="padding-left:20px">My | Appointment History</h2>
         </section>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:50px">
             <thead>
                 <tr>
                     <th>#</th>

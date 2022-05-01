@@ -42,16 +42,23 @@
 
                 </div>
             </div>
-            <div class="invitation">
+            <div class="dashboard-title">
                 <p class="pt-5">Welcome To Electronic Hospital Management System</p>
-                <div class="invitation__content">
+                <!-- <div class="invitation__content">
                     <p> Where patients are allowed to schedule appointments with doctors in specifically available slots
                         for routine checkups or treatment opinions. Only permitted users can be part of this system.
                     </p>
-                </div>
+                </div> -->
             </div>
-            <div class="center">
-                <img src="../images/index.jpg" alt="">
+            <div class="dashboard-tile" style="margin-top:80px;">
+                <marquee behavior="scroll" direction="right">
+                    <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/girl.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+                <img src="../images/doctorTech.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+                <img src="../images/docOper.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+                <img src="../images/telehealth.jpg" alt="hospital img" width="350" height="350" style="padding:5px;">
+                    <img src="../images/pic2.jpg" alt="hospital img" width="350" height="350">
+                </marquee>
             </div>
             <footer>
                 <div class="footer__content">

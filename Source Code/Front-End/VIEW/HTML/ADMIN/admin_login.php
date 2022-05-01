@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class="wrapper" style='width:90% !important'>
+<div class="wrapper">
     <div class="nav">
         <div class="nav__content">
             <a href="#" style='margin-left:0%'><img src="../../images/hlogo.jpg" height="35" width="80"
@@ -10,22 +10,22 @@
             </div>
             <div class="nurse_icon" style="margin-left: inherit">
                 <i class="fa fa-info" aria-hidden="true"></i>
-                <a href="../aboutUs.php" <span>About Us</span></a>
+                <a href="../aboutUs.php" <span class="pl-3"> About Us</span></a>
             </div>
 
             <div class="doctor_icon" style="margin-left: inherit">
                 <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                <a href="../contactus.php" <span>Contact Info</span></a>
+                <a href="../contactus.php" <span class="pl-3">Contact Info</span></a>
             </div>
 
             <div class="doctor_icon" style="margin-left: inherit">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                <a href="../PATIENT/signup.php" <span>Register</span></a>
+                <a href="../PATIENT/signup.php" <span class="pl-3">Register</span></a>
             </div>
 
-            <div class="admin_icon" style="margin-left: inherit">
+            <div class="doctor_icon" style="margin-left: inherit">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                <a href="../PATIENT/Module.php" <span>Log In</span></a>
+                <a href="../PATIENT/Module.php" <span class="pl-3">Log In</span></a>
             </div>
         </div>
     </div>

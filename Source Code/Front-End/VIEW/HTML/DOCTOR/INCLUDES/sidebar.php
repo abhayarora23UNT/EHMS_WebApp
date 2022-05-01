@@ -56,7 +56,7 @@
 
     .logo h3 {
         color: black;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 
@@ -81,7 +81,7 @@
         height: 27px;
         margin-top: 20px;
         border-bottom: 1px solid silver;
-        font-size: 1.3em;
+        font-size: 1.2em;
         cursor: pointer;
     }
 
@@ -103,7 +103,7 @@
         width: auto;
         height: 25px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -129,7 +129,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -155,7 +155,7 @@
         width: auto;
         height: 37px;
         margin-top: 20px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -181,7 +181,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -207,7 +207,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -233,7 +233,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         border-bottom: 1px solid silver;
         cursor: pointer;
     }
@@ -256,7 +256,7 @@
         width: auto;
         height: 24px;
         margin-top: 20px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -424,32 +424,21 @@
             </div>
 
             <div class="Dashboard">
-                <i class="fas fa-home"></i>
-                <a href="dashboard.php">Dashboard</a> <br>
+                <a href="dashboard.php">Dashboard</a> <i class="fas fa-home"></i>
             </div>
             <div class="Patients">
-                <i class="fas fa-users"></i>
-                Patients <br>
+                Patients <i class="fas fa-users"></i>
             </div>
             <div class="Patients__content">
                 <a href="manage_patients.php">Manage Patients</a><br>
             </div>
             <div class="Patients">
-                <i class="fas fa-users"></i>
-                Appointment History <br>
+                Appointment History <i class="fas fa-users"></i>
             </div>
             <div class="Patients__content">
                 <a href="appointment_history.php">Check Appointments</a><br>
             </div>
 
-            <div class="Settings">
-                <i class="fas fa-cog"></i>
-                Settings <br>
-            </div>
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="../DOCTOR/logout.php">Log out</a> <br>
-            </div>
         </div>
     </div>
     

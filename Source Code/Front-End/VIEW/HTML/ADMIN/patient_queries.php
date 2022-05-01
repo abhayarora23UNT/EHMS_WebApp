@@ -65,7 +65,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
     <?php include('../ADMIN/INCLUDES/footer.php');?>
     <div id="section__content" class="section__content">
         <section id="admin__dashboard" class="admin__dashboard">
-            <h1>Patients | Queries</h1>
+            <h2 style="padding-left:15px">Patients | Queries</h2>
         </section>
         <p style="color:red;font-size:1.2em;">
             <?php
@@ -81,7 +81,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 		}
 		 ?>
         </p>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:30px">
             <thead>
                 <tr>
                     <th>#</th>
@@ -116,7 +116,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                             onclick="Status_color();"><i class="fa fa-eye"></i></a>
                         <a href="patient_queries.php?Msg_id=<?php echo $row['Msg_id']?>&del=delete"
                             onClick="return confirm('Are you sure you want to delete this msg from <?php echo $row['Name']; ?>')">
-                            <i class="fa fa-times fa fa-white"></i></a>
+                            <i class="fa fa-times del-icon  fa fa-white"></i></a>
                     </td>
                 </tr>
                 <?php $count=$count+1;

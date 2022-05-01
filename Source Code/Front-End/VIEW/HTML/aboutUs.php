@@ -99,7 +99,7 @@
 
             </div>
         </div>
-        <div style='font-size:1.2em;margin-left:15px; font-weight:bold'>
+        <div style='font-size:1.2em;margin-left:15px; margin-top:10px;font-weight:bold'>
             About Electronic Hospital Management System <br /><br />
         </div>
         <span>
@@ -128,14 +128,12 @@
                 For more information on where parking is available, view or print a copy of the adjacent campus map.
             </div>
         </div>
-        <div style="margin-top:15px">
-            <marquee behavior="scroll" direction="right">
-                <img src="../images/hospital.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
-                <img src="../images/pic2.jpg" alt="hospital img" width="350" height="350">
-            </marquee>
+        <div style="margin-top:110px; margin-left:50px">
+        <img src="../images/hospital1.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/pic3.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc.jpg" alt="hospital img" width="350" height="350">
+                    <img src="../images/doc1.jpg" alt="hospital img" width="350" height="350">
+            <!-- <img src="../images/nurse.jpg" alt="hospital img" width="350" height="350"> -->
         </div>
 
 

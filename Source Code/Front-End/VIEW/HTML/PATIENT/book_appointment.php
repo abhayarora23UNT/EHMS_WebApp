@@ -32,7 +32,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
     <style media="screen">
     .book__appointment__box {
         width: 70%;
-        height: 400px;
+        height: 480px;
         background-color: inherit;
         border: 1px solid silver;
         margin-top: 40px;
@@ -92,57 +92,58 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
             <h2 style="padding-left:15px">Patient | Book Appointment</h2>
         </section>
         <span style='display: flex;justify-content:center;'>
-        <div class="book__appointment__box">
-            <div class="book__appointment__content">
-                <label>Booking Appointment</label> for'<b> <u> <?php echo $_SESSION['Email']; ?></u></b>'
-                <p style="color:red;font-size:1.2em;">
-                    <?php
+            <div class="book__appointment__box">
+                <div class="book__appointment__content">
+                    <label style="width:100px;padding-top:15px">Appointment - </label><b> <u>
+                            <?php echo $_SESSION['Email']; ?></u></b>
+                    <p style="color:red;font-size:1.2em;">
+                        <?php
 	if (isset($_GET['error'])) {
 		echo $_GET['error'];
 	}
 	 ?>
-                </p>
-                <p style="color:green;font-size:1.2em;">
-                    <?php
+                    </p>
+                    <p style="color:green;font-size:1.2em;">
+                        <?php
 	if (isset($_GET['success'])) {
 		echo $_GET['success'];
 	}
 	 ?>
-                </p>
-                <form  action="get_doctor.php" method="POST">
-                    <label>Doctor Specialization</label>
-                    <select name="Specialization" onChange="getdoctor(this.value);" required>
-                        <option value="">Specialization</option>
-                        <option value="Dermatologist">Dermatologist</option>
-                        <option value="Gynecologist">Gynecologist</option>
-                        <option value="Dentist">Dentist</option>
-                        <option value="Clinical Officer">Clinical Officer</option>
-                        <option value="Orthopaedic">Orthopaedic</option>
-                        <option value="Optician">Optician</option>
-                        <option value="Pediatrician">Pediatrician</option>
-                        <option value="Neurologist">Neurologist</option>
-                        <option value="Psychiatrist">Psychiatrist</option>
-                    </select><br>
-                    <label>Doctor</label>
-                    <select name="Doctor" id="Doctor" required>
-                        <option value="">Select Doctor</option>
-                    </select><br>
-                    <label>Consulation fees</label>
-                    <select name="Fees"><br>
-                        <option value="1000">1000</option>
-                    </select> <br>
-                    <label>Date</label>
-                    <input type="date" name="Date" required="required" style='width:400'><br>
-                    <label>Time</label>
-                    <input type="time" name="Time" required style='width:400'><br>
-                    <div class="submit__btn">
-                        <button type="submit" name="submit">
-                            Book <i class="fa fa-arrow-circle-right"></i>
-                        </button>
-                    </div>
-                </form>
+                    </p>
+                    <form action="get_doctor.php" method="POST">
+                        <label style="width:500px;padding-top:15px">Doctor Specialization</label>
+                        <select name="Specialization" onChange="getdoctor(this.value);" required>
+                            <option value="">Specialization</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Gynecologist">Gynecologist</option>
+                            <option value="Dentist">Dentist</option>
+                            <option value="Clinical Officer">Clinical Officer</option>
+                            <option value="Orthopaedic">Orthopaedic</option>
+                            <option value="Optician">Optician</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Neurologist">Neurologist</option>
+                            <option value="Psychiatrist">Psychiatrist</option>
+                        </select><br>
+                        <label style="width:500px;padding-top:15px">Doctor</label>
+                        <select name="Doctor" id="Doctor" required>
+                            <option value="">Select Doctor</option>
+                        </select><br>
+                        <label style="width:500px;padding-top:15px">Consulation fees</label>
+                        <select name="Fees"><br>
+                            <option value="1000">1000</option>
+                        </select> <br>
+                        <label style="width:500px;padding-top:15px">Date</label>
+                        <input type="date" name="Date" required="required" style='width:400'><br>
+                        <label style="width:500px;padding-top:15px">Time</label>
+                        <input type="time" name="Time" required style='width:400'><br>
+                        <div class="submit__btn">
+                            <button type="submit" name="submit" style="margin-top:15px">
+                                Book <i class="fa fa-arrow-circle-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
     </div>
 </body>
 

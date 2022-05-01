@@ -56,7 +56,7 @@
 
     .logo h3 {
         color: black;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
     }
 
@@ -81,7 +81,7 @@
         height: 27px;
         margin-top: 20px;
         border-bottom: 1px solid silver;
-        font-size: 1.3em;
+        font-size: 1.2em;
         cursor: pointer;
     }
 
@@ -102,7 +102,7 @@
     .Doctors {
         width: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -128,7 +128,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -154,7 +154,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -180,7 +180,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -206,7 +206,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -232,7 +232,7 @@
         width: auto;
         height: 30px;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -258,7 +258,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         border-bottom: 1px solid silver;
         cursor: pointer;
     }
@@ -281,7 +281,7 @@
         width: auto;
         height: auto;
         margin-top: 10px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
     }
 
@@ -451,28 +451,27 @@
             </div>
 
             <div class="Dashboard">
-                <i class="fas fa-home"></i>
-                <a href="admin_dashboard.php">Dashboard</a> <br>
+               
+                <a href="admin_dashboard.php">Dashboard</a> <i class="fas fa-home"></i>
             </div>
             <div class="Doctors">
+                 Doctors
                 <i class="fas fa-stethoscope" style='color:black'></i>
-                Doctors<br>
+               
             </div>
             <div class="Doctor__content">
                 <a href="add_doctor.php">Add Doctor</a><br>
                 <a href="manage_doctor.php">Manage Doctors</a><br>
             </div>
             <div class="Nurses">
-                <i class="fas fa-user-md" style='color:black'></i>
-                Nurses<br>
+                Nurses <i class="fas fa-user-md" style='color:black'></i>
             </div>
             <div class="Nurse__content">
                 <a href="add_nurse.php">Add Nurse</a><br>
                 <a href="manage_nurse.php">Manage Nurses</a><br>
             </div>
             <div class="Nurses">
-                <i class="fas fa-user-md" style='color:black'></i>
-                Accountant<br>
+                Accountant <i class="fas fa-user-md" style='color:black'></i>
             </div>
             <div class="Nurse__content">
                 <a href="add_cashier.php">Add Cashier</a><br>
@@ -480,63 +479,38 @@
                 <a href="manage_finance.php">Manage Accountant</a><br>
             </div>
             <div class="Doctors">
-                <i class="fas fa-stethoscope" style='color:black'></i>
-                Pharmacist<br>
+                Pharmacist <i class="fas fa-stethoscope" style='color:black'></i>
             </div>
             <div class="Doctor__content">
                 <a href="add_pharmacist.php">Add Pharmacist</a><br>
                 <a href="manage_pharmacist.php">Manage Pharmacist</a><br>
             </div>
             <div class="Reports">
-                <i class="fas fa-flag"></i>
-                Lab Technician <br>
+                Lab Technician <i class="fas fa-flag"></i>
             </div>
             <div class="Reports__content">
                 <a href="add_lab_technician.php">Add technician</a><br>
                 <a href="manage_lab_technician.php">Manage technicians</a> <br>
             </div>
             <div class="Patients">
-                <i class="fas fa-users"></i>
-                Patients <br>
+                Patients <i class="fas fa-users"></i>
             </div>
             <div class="Patients__content">
                 <a href="add_patients.php">Add Patients</a><br>
                 <a href="manage_patients.php">Manage Patients</a><br>
                 <a href="patients_appointment_history.php">Appointment History</a><br>
             </div>
-            <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
-    Drivers<br>
-    </div>
-    <div class="Doctor__content">
-  <a href="#">Add Drivers</a><br>
-  <a href="#">Manage Drivers</a><br>
-  </div>
-  <div class="Doctors">
-    <i class="fas fa-stethoscope"></i>
-    Ambulances<br>
-    </div>
-    <div class="Doctor__content">
-  <a href="#">Add Ambulances</a><br>
-<a href="#">Manage Ambulances</a><br>
-  </div>
+         
 
             <div class="Enqueries">
-                <i class="fas fa-question-circle"></i>
-                Enqueries <br>
+                Enqueries  <i class="fas fa-question-circle"></i>
             </div>
             <div class="Enqueries__content">
                 <a href="feedback.php">FeedBack</a> <br>
                 <a href="patient_queries.php">All Queries</a> <br>
             </div>
-            <div class="Settings">
-                <i class="fas fa-cog"></i>
-                Settings <br>
-            </div>
-            <div class="Settings__content">
-                <a href="change_password.php">Change Password</a><br>
-                <a href="logout.php">Log out</a> <br>
-            </div>
+            
+            
         </div>
     </div>
 

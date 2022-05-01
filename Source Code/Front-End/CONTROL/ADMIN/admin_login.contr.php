@@ -25,7 +25,7 @@ if(true){
 }
 else{
   $error="Wrong Username or password";
-  header("Location: ../../VIEW/HTML/ADMIN/admin_login.php?error=$error");
+  header("Location: ../../VIEW/HTML/PATIENT/admin_login.php?error=$error");
 
 }
 
@@ -36,7 +36,7 @@ else{
 }
 else{
   $error= 'Fill the data in required fields';
-  header("Location: ../../VIEW/HTML/ADMIN/admin_login.php?error=$error");
+  header("Location: ../../VIEW/HTML/PATIENT/admin_login.php?error=$error");
 }
 
 

@@ -25,7 +25,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
             <h4></h4>
             <div class="first__row">
                 <div class="Doctors__overview">
-                    <a href="manage_doctor.php">
+                    <a>
                         <div class="Doctors__overview__content">
                             <div class="total__docs">
                                 <?php
@@ -39,11 +39,16 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-stethoscope" style='color:black'></i>
                             </div>
                             <h6>Doctors</h6>
+                            <div class='tile'>
+                                <a href="manage_doctor.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="Nurses__overview">
-                    <a href="manage_nurse.php">
+                    <a>
                         <div class="Nurses__overview__content">
                             <div class="total__nurses">
                                 <?php
@@ -57,11 +62,16 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-user-md" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>Nurses</h6>
+                            <div class='tile'>
+                                <a href="manage_nurse.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="Patients__overview">
-                    <a href="manage_patients.php">
+                    <a>
                         <div class="Patients__overview__content">
                             <div class="total__patients">
                                 <?php
@@ -75,6 +85,11 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-users" style='color:black'></i>
                             </div>
                             <h6 style="color:black">Patients</h6>
+                            <div class='tile'>
+                                <a href="manage_patients.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -96,6 +111,11 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-users" style="color:black"></i>
                             </div>
                             <h6 style="color:black">Lab Technician</h6>
+                            <div class='tile'>
+                                <a href="manage_doctor.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -114,6 +134,11 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-users" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>MEDICINE</h6>
+                            <div class='tile'>
+                                <a href="manage_doctor.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -132,6 +157,11 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-clock" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>PAYMENT</h6>
+                            <div class='tile'>
+                                <a href="manage_doctor.php">
+                                    VIEW MORE
+                                </a>
+                            </div>
                         </div>
                 </div>
                 </a>
