@@ -102,7 +102,7 @@
                         </button>
                     </div>
                     <div class="donthaveaccount">
-                        Alreay have an account?<a href="patient_login.php"> Login</a>
+                        Already have an account?<a href="patient_login.php"> Login</a>
                     </div>
                 </div>
 

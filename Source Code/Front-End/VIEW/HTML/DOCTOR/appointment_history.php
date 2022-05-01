@@ -87,7 +87,7 @@ if (!isset($_SESSION['Doctor']) && !isset($_SESSION['password'])) {
 		}
 		 ?>
         </p>
-        <table class="table" id="myTable" style="margin-left:18px">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:50px">
             <thead>
                 <tr>
                     <th>#</th>

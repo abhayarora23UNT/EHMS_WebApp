@@ -43,12 +43,13 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
 
     .feedback__form {
         margin-left: 35px;
+        padding-bottom:15px
     }
 
     .feedback__top {
         width: 100%;
         height: 50px;
-        background-color: #03A9F4;
+        background-color: #8a79ec;
         padding: 0.5px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -116,34 +117,34 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['Password'])) {
             </div>
             <p id="errors" style="color:red; font-size:1.2em;"></p>
             <div class="feedback__form">
-                <label for="how is our system">Rate our system</label>
+                <label for="how is our system" style="width:500px;padding-top:10px">Rate our system</label>
                 <select class="" id="rate">
-                    <option value="Simple">Simple</option>
-                    <option value="Fair">Fair</option>
-                    <option value="Complex">Complex</option>
+                    <option value="Simple">1</option>
+                    <option value="Fair">2</option>
+                    <option value="Complex">3</option>
                 </select>
 
-                <label for="How are our services">How are our services</label>
+                <label for="How are our services" style="width:500px;padding-top:10px">How are our services</label>
                 <select class="" id="services">
-                    <option value="Best">Best</option>
-                    <option value="Better">Better</option>
-                    <option value="Good">Good</option>
+                    <option value="Best">Excellent</option>
+                    <option value="Better">Good</option>
+                    <option value="Good">Not Satisfactory</option>
                 </select>
 
-                <label for="Have you ever raised any complain">Have you ever raised any complain?</label>
+                <label for="Have you ever raised any complain" style="width:500px;padding-top:10px">Have you ever raised any complain?</label>
                 <select class="" id="complains">
                     <option value="No">No</option>
                     <option value="Yes">Yes</option>
                     <option value="I will">I will</option>
                 </select>
 
-                <label for="Do you have any suggestion to make our system Better">Do you have any suggestion to make our
+                <label for="Do you have any suggestion to make our system Better" style="width:500px;padding-top:10px">Do you have any suggestion to make our
                     system Better?</label>
                 <div class="suggestion">
                     <textarea id="suggestion" rows="8" cols="65"></textarea>
                 </div>
-                <div id="submit__btn">
-                    <button onclick="submit();" type="submit">
+                <div  class="submit__btn">
+                    <button onclick="submit();" type="submit" >
                         Submit <i class="fa fa-arrow-circle-right"></i>
                     </button>
                 </div>
