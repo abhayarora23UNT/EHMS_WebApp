@@ -483,7 +483,7 @@
                 <a href="#" style='margin-left:3%;margin-top: 28px;'><img src="hlogo.jpg" height="35" width="80"
                         alt="Image resize"></a></center>
                 <span class="heading-title"> Electronic Hospital Management System </span>
-                <title>Admin | Dashboard</title>
+                <title>Doctor | Dashboard</title>
             </div>
 
 
