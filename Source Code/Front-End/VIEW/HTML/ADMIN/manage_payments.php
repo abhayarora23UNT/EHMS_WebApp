@@ -95,7 +95,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                 
             </div>
         </div>
-        <table class="table" id="myTable">
+        <table class="table" id="myTable" style="margin-left:18px;margin-top:30px">
             <thead>
                 <tr>
                     <th>#</th>

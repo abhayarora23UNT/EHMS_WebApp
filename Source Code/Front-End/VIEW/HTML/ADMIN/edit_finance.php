@@ -45,7 +45,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
       $sql="SELECT * FROM table_finance WHERE Email='$Email'";
       $query=mysqli_query($conn,$sql);
       while($data=mysqli_fetch_array($query)){
-      $date=date("d-m-yy",strtotime($data['Entry_date']));
+      $date=date("d-m-y",strtotime($data['Entry_date']));
       $Name=Ucfirst($data['Name']);
       $Phone=$data['Phone'];
 ?>

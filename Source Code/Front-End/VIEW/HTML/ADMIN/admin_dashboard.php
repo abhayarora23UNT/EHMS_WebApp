@@ -112,7 +112,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                             </div>
                             <h6 style="color:black">Lab Technician</h6>
                             <div class='tile'>
-                                <a href="manage_doctor.php">
+                                <a href="manage_lab_technician.php">
                                     VIEW MORE
                                 </a>
                             </div>
@@ -134,11 +134,11 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                                 <i class="fas fa-users" style='color:black'></i>
                             </div>
                             <h6 style='color:black'>MEDICINE</h6>
-                            <div class='tile'>
+                            <!-- <div class='tile'>
                                 <a href="manage_doctor.php">
                                     VIEW MORE
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </a>
                 </div>
@@ -158,7 +158,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
                             </div>
                             <h6 style='color:black'>PAYMENT</h6>
                             <div class='tile'>
-                                <a href="manage_doctor.php">
+                                <a href="manage_payments.php">
                                     VIEW MORE
                                 </a>
                             </div>

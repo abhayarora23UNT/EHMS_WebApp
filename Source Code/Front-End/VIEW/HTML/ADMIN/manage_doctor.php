@@ -107,7 +107,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 											while($row=mysqli_fetch_array($query))
 											{
-												$date=date("d-m-yy", strtotime($row['Entry_date']));
+												$date=date("d-m-y", strtotime($row['Entry_date']));
 											?>
                 <tr>
                     <td><?php echo $count; ?></td>

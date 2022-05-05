@@ -12,7 +12,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 		if($query){
 			$success="Nurse deleted from the system successfully";
-			header("Location: manage_doctor.php?success=$success");
+			header("Location: manage_nurse.php?success=$success");
 			exit();
 		}
 	}
@@ -102,7 +102,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 											$count=1;
 											while($row=mysqli_fetch_array($query))
 											{
-													$date=date("d-m-yy", strtotime($row['Entry_date']));
+													$date=date("d-m-y", strtotime($row['Entry_date']));
 											?>
                 <tr>
                     <td><?php echo $count; ?></td>
